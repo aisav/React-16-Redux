@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Person from './Person/Person';
 import logo from './logo.svg';
 import './App.css';
 
@@ -11,10 +12,12 @@ class App extends Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+            Hello, I am a React app
         </p>
+          <Person/>
       </div>
     );
+    // return React.createElement('h1', null, 'kkkkkkkkkk');
   }
 }
 
