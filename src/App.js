@@ -4,6 +4,20 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
+    state = {
+        persons: [
+            {name: 'Artur', age: 31},
+            {name: 'Tom', age: 30}
+        ],
+        another: 'hhh'
+    }
+
+    handleSwitchName = () => {
+        this.setState({persons: [
+            {name: 'Isaverdyan', age: 31},
+            {name: 'Tom', age: 30}
+        ]})
+    }
   render() {
     return (
       <div className="App">
@@ -13,9 +27,10 @@ class App extends Component {
         </header>
         <p className="App-intro">
             Hello, I am a React app
+            <button onClick={this.handleSwitchName}>Switch Name</button>
         </p>
-          <Person name="Artur" age="31">My hobbies: Walking</Person>
-          <Person name="Tom" age="30"/>
+          <Person name={this.state.persons[0].name} age={this.state.persons[0].age}>My hobbies: Walking</Person>
+          <Person name={this.state.persons[1].name} age={this.state.persons[1].age}/>
       </div>
     );
     // return React.createElement('h1', null, 'kkkkkkkkkk');
