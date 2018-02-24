@@ -26,9 +26,15 @@ class App extends Component {
         ]})
     }
 
-    HandleTogglePersons = () => {
+    handleTogglePersons = () => {
         const doesShow = this.state.showPersons;
         this.setState({showPersons: !doesShow});
+    }
+
+    handleDeletePerson = (personIndex) => {
+        const persons = this.state.persons;
+        persons.splice(personIndex, 1);
+        this.setState({persons: persons})
     }
   render() {
         const style = {
@@ -37,6 +43,21 @@ class App extends Component {
             border: '1px solid blue',
             padding: '8px'
         };
+        let persons = null;
+        if(this.state.showPersons) {
+            persons = (
+                <div>
+                    {
+                        this.state.persons.map((person, index) => {
+                            return <Person
+                                name={person.name}
+                                age={person.age}
+                                clicked={()=>this.handleDeletePerson(index)}/>
+                    })
+                    }
+                </div>
+            )
+        }
     return (
       <div className="App">
         <header className="App-header">
@@ -45,16 +66,9 @@ class App extends Component {
         </header>
         <p className="App-intro">
             Hello, I am a React app
-            <button onClick={() => this.HandleTogglePersons()}>Toggle Persons</button>
+            <button onClick={() => this.handleTogglePersons()}>Toggle Persons</button>
         </p>
-          {this.state.showPersons ?
-              <div>
-                  <button onClick={() => this.handleSwitchName('Isaverdyan')}>Switch Name</button>
-                  <Person name={this.state.persons[0].name} age={this.state.persons[0].age}>My hobbies: Walking</Person>
-                  <Person name={this.state.persons[1].name} age={this.state.persons[1].age}
-                          clicked={this.handleSwitchName.bind(this, 'Isav!!!!!!!!')} changed={this.handleChangeName}/>
-              </div>: null
-          }
+          {persons}
       </div>
     );
     // return React.createElement('h1', null, 'kkkkkkkkkk');
