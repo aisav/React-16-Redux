@@ -9,7 +9,7 @@ class App extends Component {
             {name: 'Artur', age: 31},
             {name: 'Tom', age: 30}
         ],
-        another: 'hhh'
+        showPersons: false
     }
 
     handleSwitchName = (newName) => {
@@ -24,6 +24,11 @@ class App extends Component {
             {name: 'notChanged', age: 11},
             {name: event.target.value, age: 11}
         ]})
+    }
+
+    HandleTogglePersons = () => {
+        const doesShow = this.state.showPersons;
+        this.setState({showPersons: !doesShow});
     }
   render() {
         const style = {
@@ -40,11 +45,16 @@ class App extends Component {
         </header>
         <p className="App-intro">
             Hello, I am a React app
-            <button onClick={() => this.handleSwitchName('Isaverdyan')}>Switch Name</button>
+            <button onClick={() => this.HandleTogglePersons()}>Toggle Persons</button>
         </p>
-          <Person name={this.state.persons[0].name} age={this.state.persons[0].age}>My hobbies: Walking</Person>
-          <Person name={this.state.persons[1].name} age={this.state.persons[1].age}
-                  clicked={this.handleSwitchName.bind(this, 'Isav!!!!!!!!')} changed = {this.handleChangeName}/>
+          {this.state.showPersons ?
+              <div>
+                  <button onClick={() => this.handleSwitchName('Isaverdyan')}>Switch Name</button>
+                  <Person name={this.state.persons[0].name} age={this.state.persons[0].age}>My hobbies: Walking</Person>
+                  <Person name={this.state.persons[1].name} age={this.state.persons[1].age}
+                          clicked={this.handleSwitchName.bind(this, 'Isav!!!!!!!!')} changed={this.handleChangeName}/>
+              </div>: null
+          }
       </div>
     );
     // return React.createElement('h1', null, 'kkkkkkkkkk');
