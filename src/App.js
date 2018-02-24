@@ -12,13 +12,6 @@ class App extends Component {
         showPersons: false
     }
 
-    handleSwitchName = (newName) => {
-        this.setState({persons: [
-            {name: newName, age: 31},
-            {name: 'Tom', age: 30}
-        ]})
-    }
-
     handleChangeName = (event, id) => {
         const personIndex = this.state.persons.findIndex(p => {
             return p.id === id;
@@ -39,6 +32,8 @@ class App extends Component {
     handleTogglePersons = () => {
         const doesShow = this.state.showPersons;
         this.setState({showPersons: !doesShow});
+
+
     }
 
     handleDeletePerson = (personIndex) => {
@@ -49,7 +44,8 @@ class App extends Component {
     }
   render() {
         const style = {
-            backgroundColor: 'white',
+            backgroundColor: 'green',
+            color: 'white',
             font: 'inherit',
             border: '1px solid blue',
             padding: '8px'
@@ -70,6 +66,7 @@ class App extends Component {
                     }
                 </div>
             )
+            style.backgroundColor = 'red';
         }
     return (
       <div className="App">
@@ -79,7 +76,7 @@ class App extends Component {
         </header>
         <p className="App-intro">
             Hello, I am a React app
-            <button onClick={() => this.handleTogglePersons()}>Toggle Persons</button>
+            <button onClick={() => this.handleTogglePersons()} style={style}>Toggle Persons</button>
         </p>
           {persons}
       </div>
