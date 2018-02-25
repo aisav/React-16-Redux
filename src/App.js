@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Person from './Person/Person';
 import logo from './logo.svg';
-import './App.css';
+import classes from'./App.css';
 
 class App extends Component {
     state = {
@@ -71,24 +71,19 @@ class App extends Component {
             style.backgroundColor = 'red';
 
         }
-        let classes = [];
-        if (this.state.persons.length < 3) {
-            classes.push('red')
-        }
+        let assignedClasses = [];
         if (this.state.persons.length < 2) {
-            classes.push('bold')
+            assignedClasses.push(classes.red)
         }
-        // let classes = ['red', 'bold'].join(' ');
+        if (this.state.persons.length < 1) {
+            assignedClasses.push(classes.bold)
+        }
+        // let assignedClasses = ['red', 'bold'].join(' ');
         return (
-            <div className="App">
-                <header className="App-header">
-                    <img src={logo} className="App-logo" alt="logo" style={style}/>
-                    <h1 className="App-title">Welcome to React</h1>
-                </header>
-                <p className="App-intro">
-                    Hello, I am a React app
-                </p>
-                <p className={classes}>Paragraph for style</p>
+            <div className={classes.App}>
+
+                <h1>Hello, I am a React app</h1>
+                <p className={assignedClasses.join(' ')}>Paragraph for style</p>
                 <div>
                     <button onClick={() => this.handleTogglePersons()} style={style}  key="b1">Toggle Persons</button>
                 </div>
