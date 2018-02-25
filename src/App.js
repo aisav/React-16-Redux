@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import Person from './Person/Person';
 import logo from './logo.svg';
 import './App.css';
@@ -42,7 +42,8 @@ class App extends Component {
         persons.splice(personIndex, 1);
         this.setState({persons: persons})
     }
-  render() {
+
+    render() {
         const style = {
             backgroundColor: 'green',
             color: 'white',
@@ -51,7 +52,7 @@ class App extends Component {
             padding: '8px'
         };
         let persons = null;
-        if(this.state.showPersons) {
+        if (this.state.showPersons) {
             persons = (
                 <div>
                     {
@@ -59,30 +60,41 @@ class App extends Component {
                             return <Person
                                 name={person.name}
                                 age={person.age}
-                                clicked={()=>this.handleDeletePerson(index)}
-                                key = {person.id}
-                                changed = {(event) => this.handleChangeName(event,person.id)}/>
-                    })
+                                clicked={() => this.handleDeletePerson(index)}
+                                key={person.id}
+                                changed={(event) => this.handleChangeName(event, person.id)}/>
+                        })
                     }
                 </div>
             )
             style.backgroundColor = 'red';
         }
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" style={style}/>
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-            Hello, I am a React app
-            <button onClick={() => this.handleTogglePersons()} style={style}>Toggle Persons</button>
-        </p>
-          {persons}
-      </div>
-    );
-    // return React.createElement('h1', null, 'kkkkkkkkkk');
-  }
+        let classes = [];
+        if (this.state.persons.length < 3) {
+            classes.push('red')
+        }
+        if (this.state.persons.length < 2) {
+            classes.push('bold')
+        }
+        // let classes = ['red', 'bold'].join(' ');
+        return (
+            <div className="App">
+                <header className="App-header">
+                    <img src={logo} className="App-logo" alt="logo" style={style}/>
+                    <h1 className="App-title">Welcome to React</h1>
+                </header>
+                <p className="App-intro">
+                    Hello, I am a React app
+                </p>
+                <p className={classes}>Paragraph for style</p>
+                <div>
+                    <button onClick={() => this.handleTogglePersons()} style={style}>Toggle Persons</button>
+                </div>
+                {persons}
+            </div>
+        );
+        // return React.createElement('h1', null, 'kkkkkkkkkk');
+    }
 }
 
 export default App;
