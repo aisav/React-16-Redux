@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import Person from './Person/Person';
-import logo from './logo.svg';
 import classes from'./App.css';
 
 class App extends Component {
@@ -53,6 +52,8 @@ class App extends Component {
             cursor: 'pointer'
         };
         let persons = null;
+        let btnClass = '';
+
         if (this.state.showPersons) {
             persons = (
                 <div>
@@ -67,9 +68,8 @@ class App extends Component {
                         })
                     }
                 </div>
-            )
-            style.backgroundColor = 'red';
-
+            );
+            btnClass = classes.Red;
         }
         let assignedClasses = [];
         if (this.state.persons.length < 2) {
@@ -83,9 +83,13 @@ class App extends Component {
             <div className={classes.App}>
 
                 <h1>Hello, I am a React app</h1>
-                <p className={assignedClasses.join(' ')}>Paragraph for style</p>
+                <p className={assignedClasses.join(' ')}>Click on users Paragraph for remove</p>
                 <div>
-                    <button onClick={() => this.handleTogglePersons()} style={style}  key="b1">Toggle Persons</button>
+                    <button
+                        onClick={() => this.handleTogglePersons()}
+                        key="b1"
+                        className={btnClass}
+                    >Toggle Persons</button>
                 </div>
                 {persons}
             </div>
