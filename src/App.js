@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Radium from 'radium';
+import Radium, {StyleRoot} from 'radium';
 import Person from './Person/Person';
 import logo from './logo.svg';
 import './App.css';
@@ -88,6 +88,7 @@ class App extends Component {
         }
         // let classes = ['red', 'bold'].join(' ');
         return (
+            <StyleRoot>
             <div className="App">
                 <header className="App-header">
                     <img src={logo} className="App-logo" alt="logo" style={style}/>
@@ -102,6 +103,7 @@ class App extends Component {
                 </div>
                 {persons}
             </div>
+            </StyleRoot>
         );
         // return React.createElement('h1', null, 'kkkkkkkkkk');
     }
