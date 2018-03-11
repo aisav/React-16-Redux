@@ -1,40 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="theme-color" content="#000000">
-    <!--
-      manifest.json provides metadata used when your web app is added to the
-      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+<html>
+<body>
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>
-      You need to enable JavaScript to run this app.
-    </noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+<canvas id="myCanvas" width="1024" height="768"
+        style="border:1px solid #d3d3d3;">
+  Your browser does not support the canvas element.
+</canvas>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+<script>
+    var size=40;
+    var arr = [{x:100,y:200},{x:140,y:240},{x:100,y:240}, {x:60,y:200}, {x:100,y:160} ];
+    var lines = {};
+    for(var a in arr) {
+        var a1 = {
+            'from': {x: arr[a].x-20,   y: arr[a].y-20},
+            'to': {x: arr[a].x+20,   y: arr[a].y-20}};
+        if(lines.hasOwnProperty([a1])){
+            lines[{
+                'from': {x: arr[a].x - 20, y: arr[a].y - 20},
+                'to': {x: arr[a].x + 20, y: arr[a].y - 20}
+            }
+                ] = 'red';
+        }
+        else {
+            lines[{
+                'from': {x: arr[a].x - 20, y: arr[a].y - 20},
+                'to': {x: arr[a].x + 20, y: arr[a].y - 20}
+            }
+                ] = 'black';
+        };
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+        if (lines.hasOwnProperty( {
+            'from': {x: arr[a].x-20,   y: arr[a].y-20},
+            'to': {x: arr[a].x-20,   y: arr[a].y+20}})){
+            lines[{
+                'from': {x: arr[a].x-20,   y: arr[a].y-20},
+                'to': {x: arr[a].x-20,   y: arr[a].y+20}}] = 'red';
+        }
+        else {
+            lines.set[{
+                'from': {x: arr[a].x-20,   y: arr[a].y-20},
+                'to': {x: arr[a].x-20,   y: arr[a].y+20}}] = 'black';
+        }
+
+//        lines.push( {
+//            'from': {x: arr[a].x+20,   y: arr[a].y-20},
+//            'to': {x: arr[a].x+20,   y: arr[a].y+20}});
+//
+//        lines.push( {
+//            'from':{x: arr[a].x-20,   y: arr[a].y+20},
+//            'to':{x: arr[a].x+20,   y: arr[a].y+20}});
+    }
+
+
+    var uniqueLines =lines;
+
+    console.log(uniqueLines.length)
+
+    var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
+    for(var uL in uniqueLines){
+        console.log(uL)
+//        ctx.strokeStyle = uniqueLines[uL];
+//        ctx.moveTo(uL['from'].x, uL['from'].y);
+//        ctx.lineTo(uL['to'].x, uL['to'].y);
+//        ctx.stroke();
+    }
+
+
+
+</script>
+
+</body>
 </html>
