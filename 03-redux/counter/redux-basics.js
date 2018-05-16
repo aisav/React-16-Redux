@@ -18,6 +18,11 @@ const rootReducer = (state = initialState, action) => {
 const store = redux.createStore(rootReducer);
 console.log(store.getState());
 
+//Subscription
+store.subscribe(() => {
+    console.log('from subscription', store.getState());
+})
+
 //Dispatching Action
 store.dispatch({type: 'ADD', value: 10});
 console.log(store.getState());
