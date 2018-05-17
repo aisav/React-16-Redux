@@ -1,8 +1,22 @@
 const initialState = {
-    counter: 0
+    counter: 777
 };
 
 const reducer = (state = initialState, action) => {
+    switch (action.type) {
+        case 'ADD': return {
+            counter: state.counter + 5
+        }
+        case 'SUB': return {
+            counter: state.counter - 5
+        }
+        case 'INC': return {
+            counter: state.counter + 1
+        }
+        case 'DEC': return {
+            counter: state.counter - 1
+        }
+    }
     return state;
 }
 
