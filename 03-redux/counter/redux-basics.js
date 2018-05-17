@@ -19,9 +19,12 @@ const store = redux.createStore(rootReducer);
 console.log(store.getState());
 
 //Subscription
-store.subscribe(() => {
+var unsubscribe = store.subscribe(
+    () => {
     console.log('from subscription', store.getState());
 })
+
+// unsubscribe();
 
 //Dispatching Action
 store.dispatch({type: 'ADD', value: 10});
