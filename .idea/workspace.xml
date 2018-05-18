@@ -56,21 +56,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reducer.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="reducer.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/03-redux/counter/src/store/reducer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="49" lean-forward="false" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+            <state relative-caret-position="588">
+              <caret line="36" column="39" lean-forward="false" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Counter.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Counter.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/03-redux/counter/src/containers/Counter/Counter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="35" column="49" lean-forward="false" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+            <state relative-caret-position="115">
+              <caret line="19" column="45" lean-forward="false" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -90,11 +90,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>totalPrice</find>
-      <find>this.state.ingredients</find>
-      <find>addin</find>
-      <find>this.state.ingredients.to</find>
-      <find>updatePurchaseState</find>
       <find>pur</find>
       <find>purchasable</find>
       <find>purc</find>
@@ -120,6 +115,11 @@
       <find>INCREMENT</find>
       <find>onDecrementCounter</find>
       <find>onIncrementCounter</find>
+      <find>result</find>
+      <find>onDeleteResult</find>
+      <find>ctr</find>
+      <find>DELETE_RESULT</find>
+      <find>value</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -192,8 +192,8 @@
         <option value="$PROJECT_DIR$/03-redux/redux-basics.js" />
         <option value="$PROJECT_DIR$/03-redux/counter/redux-basics.js" />
         <option value="$PROJECT_DIR$/03-redux/counter/src/index.js" />
-        <option value="$PROJECT_DIR$/03-redux/counter/src/store/reducer.js" />
         <option value="$PROJECT_DIR$/03-redux/counter/src/containers/Counter/Counter.js" />
+        <option value="$PROJECT_DIR$/03-redux/counter/src/store/reducer.js" />
       </list>
     </option>
   </component>
@@ -355,21 +355,7 @@
       <workItem from="1524635799442" duration="607000" />
       <workItem from="1526408091247" duration="5499000" />
       <workItem from="1526450671320" duration="17126000" />
-      <workItem from="1526563705206" duration="8084000" />
-    </task>
-    <task id="LOCAL-00005" summary="conditional render list">
-      <created>1519489613603</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1519489613603</updated>
-    </task>
-    <task id="LOCAL-00006" summary="dynamic js render list">
-      <created>1519492948980</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1519492948980</updated>
+      <workItem from="1526563705206" duration="22643000" />
     </task>
     <task id="LOCAL-00007" summary="list map key spread">
       <created>1519496184048</created>
@@ -700,11 +686,25 @@
       <option name="project" value="LOCAL" />
       <updated>1526570828692</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="passing value from component to reducer">
+      <created>1526579078867</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1526579078868</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Updating State Immutably">
+      <created>1526611973063</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1526611973063</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204771000" />
+    <option name="totallyTimeSpent" value="219330000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1553" height="916" extended-state="6" />
@@ -794,8 +794,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="prop types" />
-    <MESSAGE value="with static BurgerIngredients" />
     <MESSAGE value="with common way BurgerIngredients" />
     <MESSAGE value="buildcontrols, ingredients added dynamicly" />
     <MESSAGE value="ingredients removing" />
@@ -819,7 +817,9 @@
     <MESSAGE value="React to Redux" />
     <MESSAGE value="store to react" />
     <MESSAGE value="DISPATCHING ACTIONS" />
-    <option name="LAST_COMMIT_MESSAGE" value="DISPATCHING ACTIONS" />
+    <MESSAGE value="passing value from component to reducer" />
+    <MESSAGE value="Updating State Immutably" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating State Immutably" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1041,6 +1041,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1162,21 +1165,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03-redux/counter/src/store/reducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="49" lean-forward="false" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/03-redux/counter/src/containers/Counter/Counter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="35" column="49" lean-forward="false" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+        <state relative-caret-position="115">
+          <caret line="19" column="45" lean-forward="false" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-redux/counter/src/store/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="36" column="39" lean-forward="false" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
