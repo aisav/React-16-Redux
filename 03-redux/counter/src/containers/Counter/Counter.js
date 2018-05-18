@@ -34,6 +34,13 @@ class Counter extends Component {
                 <CounterControl label="Decrement" clicked={this.props.onDecrementCounter}  />
                 <CounterControl label="Add 7" clicked={this.props.onAddCounter}/>
                 <CounterControl label="Subtract 7" clicked={this.props.onSubtractCounter}  />
+                <hr/>
+                <button onClick={this.props.onStoreResult}>Store Result</button>
+                <ul>
+                    {this.props.storedResults.map((strResult) => (
+                        <li>{strResult}</li>
+                    ))}
+                </ul>
             </div>
         );
     }
@@ -41,7 +48,8 @@ class Counter extends Component {
 
 const mapStateToProps = state => {
     return {
-        ctr: state.counter
+        ctr: state.counter,
+        storedResults: state.results
     };
 };
 
@@ -50,7 +58,8 @@ const mapDispatchToProps = dispatch => {
         onAddCounter: () => dispatch({type: 'ADD', value: 7}),
         onDecrementCounter: () => dispatch({type: 'DEC'}),
         onIncrementCounter: () => dispatch({type: 'INC'}),
-        onSubtractCounter: () => dispatch({type: 'SUB', value: 7})
+        onSubtractCounter: () => dispatch({type: 'SUB', value: 7}),
+        onStoreResult: () => dispatch({type: 'STORE_RESULT'})
     };
 };
 
