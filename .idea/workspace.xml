@@ -4,12 +4,12 @@
     <bookmark url="file://$PROJECT_DIR$/02-burger-builder/src/components/Navigation/Toolbar/Toolbar.css" description="&#10;.Logo {&#10;    height: 80%;&#10;}" line="19" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73a7b0c8-97b5-4586-9886-67cb9114d957" name="Default" comment="action creators">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/03-redux/counter/src/store/actions.js" afterPath="$PROJECT_DIR$/03-redux/counter/src/store/actions/actions.js" />
+    <list default="true" id="73a7b0c8-97b5-4586-9886-67cb9114d957" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/03-redux/counter/src/containers/Counter/Counter.js" afterPath="$PROJECT_DIR$/03-redux/counter/src/containers/Counter/Counter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/03-redux/counter/src/store/reducer.js" afterPath="$PROJECT_DIR$/03-redux/counter/src/store/reducer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/03-redux/counter/src/store/reducers/counter.js" afterPath="$PROJECT_DIR$/03-redux/counter/src/store/reducers/counter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/03-redux/counter/package-lock.json" afterPath="$PROJECT_DIR$/03-redux/counter/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/03-redux/counter/package.json" afterPath="$PROJECT_DIR$/03-redux/counter/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/03-redux/counter/src/index.js" afterPath="$PROJECT_DIR$/03-redux/counter/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/03-redux/counter/src/store/actions/actions.js" afterPath="$PROJECT_DIR$/03-redux/counter/src/store/actions/actions.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/03-redux/counter/src/store/reducers/result.js" afterPath="$PROJECT_DIR$/03-redux/counter/src/store/reducers/result.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -27,33 +27,11 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/03-redux/counter/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="33" column="26" lean-forward="false" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+            <state relative-caret-position="704">
+              <caret line="36" column="50" lean-forward="false" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03-redux/counter/src/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="result.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03-redux/counter/src/store/reducers/result.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -61,48 +39,28 @@
       <file leaf-file-name="actions.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/03-redux/counter/src/store/actions/actions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="248">
+              <caret line="36" column="19" lean-forward="false" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01-06-all-new-concepts/src/index.js">
+      <file leaf-file-name="result.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/03-redux/counter/src/store/reducers/result.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="187">
+              <caret line="11" column="71" lean-forward="false" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Burger.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02-burger-builder/src/components/Burger/Burger.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="26" column="17" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cockbit.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01-06-all-new-concepts/src/components/Cockpit/Cockbit.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Counter.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Counter.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/03-redux/counter/src/containers/Counter/Counter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="6" column="61" lean-forward="true" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
+            <state relative-caret-position="-154">
+              <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="31" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -110,23 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CounterControl.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03-redux/counter/src/components/CounterControl/CounterControl.js">
+      <file leaf-file-name="counter.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03-redux/counter/src/store/reducers/counter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CounterControl.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03-redux/counter/src/components/CounterControl/CounterControl.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+            <state relative-caret-position="286">
+              <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -144,11 +90,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>pro</find>
-      <find>gg</find>
-      <find>drawerToggleClicked</find>
-      <find>pokeapi.</find>
-      <find>x_bu</find>
       <find>webpack-dev</find>
       <find>createStore</find>
       <find>prevState</find>
@@ -163,7 +104,6 @@
       <find>onDecrementCounter</find>
       <find>onIncrementCounter</find>
       <find>result</find>
-      <find>onDeleteResult</find>
       <find>ctr</find>
       <find>value</find>
       <find>INC</find>
@@ -174,6 +114,12 @@
       <find>button</find>
       <find>ondelet</find>
       <find>CounterControl</find>
+      <find>app</find>
+      <find>date</find>
+      <find>key</find>
+      <find>onDeleteResult</find>
+      <find>appl</find>
+      <find>w da</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -188,8 +134,8 @@
       <dir>C:\Users\art\WebstormProjects\react-16-complete-guide\03-pokedex</dir>
       <dir>C:\Users\art\WebstormProjects\react-16-complete-guide\07-pokedex</dir>
       <dir>C:\Users\art\WebstormProjects\react-16-complete-guide\03-redux\counter</dir>
-      <dir>C:\Users\art\WebstormProjects\react-16-complete-guide</dir>
       <dir>C:\Users\art\WebstormProjects\react-16-complete-guide\03-redux</dir>
+      <dir>C:\Users\art\WebstormProjects\react-16-complete-guide</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -243,12 +189,12 @@
         <option value="$PROJECT_DIR$/03-redux/counter/src/store/reducers/reducer.js" />
         <option value="$PROJECT_DIR$/03-redux/counter/src/store/reducer.js" />
         <option value="$PROJECT_DIR$/03-redux/counter/src/store/counter.js" />
-        <option value="$PROJECT_DIR$/03-redux/counter/src/index.js" />
         <option value="$PROJECT_DIR$/03-redux/counter/src/store/reducers/counter.js" />
-        <option value="$PROJECT_DIR$/03-redux/counter/src/store/reducers/result.js" />
-        <option value="$PROJECT_DIR$/03-redux/counter/src/store/actions/actions.js" />
-        <option value="$PROJECT_DIR$/03-redux/counter/src/containers/Counter/Counter.js" />
         <option value="$PROJECT_DIR$/03-redux/counter/src/components/CounterControl/CounterControl.css" />
+        <option value="$PROJECT_DIR$/03-redux/counter/src/containers/Counter/Counter.js" />
+        <option value="$PROJECT_DIR$/03-redux/counter/src/index.js" />
+        <option value="$PROJECT_DIR$/03-redux/counter/src/store/actions/actions.js" />
+        <option value="$PROJECT_DIR$/03-redux/counter/src/store/reducers/result.js" />
       </list>
     </option>
   </component>
@@ -456,14 +402,7 @@
       <workItem from="1526408091247" duration="5499000" />
       <workItem from="1526450671320" duration="17126000" />
       <workItem from="1526563705206" duration="29571000" />
-      <workItem from="1526753066997" duration="5298000" />
-    </task>
-    <task id="LOCAL-00009" summary="setting classNames dynamicly">
-      <created>1519527789194</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1519527789194</updated>
+      <workItem from="1526753066997" duration="8295000" />
     </task>
     <task id="LOCAL-00010" summary="radium using">
       <created>1519549757458</created>
@@ -801,17 +740,23 @@
       <option name="project" value="LOCAL" />
       <updated>1526629969755</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="action creators">
+      <created>1526786033857</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1526786033858</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="231762000" />
+    <option name="totallyTimeSpent" value="234759000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1553" height="916" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18019801" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18019801" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948717" sideWeight="0.50791556" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948717" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -896,7 +841,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ingredients removing" />
     <MESSAGE value="disable atribute for Less button" />
     <MESSAGE value="adding price in buildcontrols" />
     <MESSAGE value="purchasable UPDATE NOW button" />
@@ -921,20 +865,14 @@
     <MESSAGE value="Updating State Immutably" />
     <MESSAGE value="Updating Arrays Immutably" />
     <MESSAGE value="Outsourcing Action Types" />
-    <option name="LAST_COMMIT_MESSAGE" value="Outsourcing Action Types" />
+    <MESSAGE value="action creators" />
+    <option name="LAST_COMMIT_MESSAGE" value="action creators" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/02-burger-builder/src/components/Logo/Logo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="62" lean-forward="false" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/02-burger-builder/src/components/Logo/Logo.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -1199,14 +1137,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03-redux/counter/src/store/reducers/counter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01-06-all-new-concepts/src/containers/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -1225,13 +1155,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03-redux/counter/src/index.js">
+    <entry file="file://$PROJECT_DIR$/01-06-all-new-concepts/src/containers/App.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="33" column="26" lean-forward="false" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-06-all-new-concepts/src/components/Cockpit/Cockbit.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1245,55 +1181,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/03-redux/counter/src/components/CounterControl/CounterControl.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/03-redux/counter/src/components/CounterControl/CounterControl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01-06-all-new-concepts/src/containers/App.css">
+    <entry file="file://$PROJECT_DIR$/03-redux/counter/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-redux/counter/src/components/CounterControl/CounterControl.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-redux/counter/src/store/reducers/result.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-          <folding />
+        <state relative-caret-position="704">
+          <caret line="36" column="50" lean-forward="false" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/03-redux/counter/src/store/actions/actions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="248">
+          <caret line="36" column="19" lean-forward="false" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-redux/counter/src/store/reducers/counter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/03-redux/counter/src/containers/Counter/Counter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="6" column="61" lean-forward="true" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
+        <state relative-caret-position="-154">
+          <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="31" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-redux/counter/src/store/reducers/result.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="71" lean-forward="false" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
+          <folding />
         </state>
       </provider>
     </entry>
