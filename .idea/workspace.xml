@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="73a7b0c8-97b5-4586-9886-67cb9114d957" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Blog.js" afterPath="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Blog.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Posts/Posts.js" afterPath="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Posts/Posts.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,10 +32,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Blog.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Blog.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Blog.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="288">
               <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
@@ -44,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Posts.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Posts.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Posts/Posts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="39" column="22" lean-forward="false" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+            <state relative-caret-position="176">
+              <caret line="32" column="47" lean-forward="false" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
               <folding>
                 <element signature="e#71#106#0" expanded="true" />
               </folding>
@@ -81,22 +81,10 @@
       <file leaf-file-name="FullPost.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/FullPost/FullPost.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
+            <state relative-caret-position="244">
               <caret line="14" column="94" lean-forward="false" selection-start-line="14" selection-start-column="94" selection-end-line="14" selection-end-column="94" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FullPost.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa2448.28308/FullPost.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="21" column="122" lean-forward="false" selection-start-line="21" selection-start-column="109" selection-end-line="21" selection-end-column="122" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -161,7 +149,6 @@
       <find>actions</find>
       <find>props</find>
       <find>cli</find>
-      <find>selectedPostId</find>
       <find>&quot;srt</find>
       <find>s.g</find>
       <find>postSelectedHandler</find>
@@ -171,9 +158,10 @@
       <find>new-post</find>
       <find>fullpo</find>
       <find>Posts</find>
-      <find>posti</find>
       <find>&lt;po</find>
+      <find>posti</find>
       <find>loadedPost</find>
+      <find>selectedPostId</find>
     </findStrings>
     <replaceStrings>
       <replace>this.props</replace>
@@ -249,9 +237,9 @@
         <option value="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/NewPost/NewPost.js" />
         <option value="$PROJECT_DIR$/04-http/blogPost/src/components/Post/Post.js" />
         <option value="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Blog.css" />
-        <option value="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Posts/Posts.js" />
         <option value="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/FullPost/FullPost.js" />
         <option value="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Blog.js" />
+        <option value="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Posts/Posts.js" />
       </list>
     </option>
   </component>
@@ -451,14 +439,7 @@
       <workItem from="1527088714365" duration="6075000" />
       <workItem from="1527137588804" duration="4066000" />
       <workItem from="1527240310978" duration="12995000" />
-      <workItem from="1527267654806" duration="26450000" />
-    </task>
-    <task id="LOCAL-00024" summary="idea">
-      <created>1520003341559</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1520003341559</updated>
+      <workItem from="1527267654806" duration="27705000" />
     </task>
     <task id="LOCAL-00025" summary="global css eject">
       <created>1520004673492</created>
@@ -796,11 +777,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527358834102</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="adding Switch for bugfix">
+      <created>1527359539348</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1527359539348</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="296682000" />
+    <option name="totallyTimeSpent" value="297937000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1554" height="916" extended-state="6" />
@@ -891,7 +879,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding Subscriptions" />
     <MESSAGE value="subscribtion" />
     <MESSAGE value="React to Redux" />
     <MESSAGE value="store to react" />
@@ -916,7 +903,8 @@
     <MESSAGE value="routing releted props" />
     <MESSAGE value="NavLink active class" />
     <MESSAGE value="Route for single post" />
-    <option name="LAST_COMMIT_MESSAGE" value="Route for single post" />
+    <MESSAGE value="adding Switch for bugfix" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding Switch for bugfix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1250,16 +1238,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Posts/Posts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="39" column="22" lean-forward="false" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
-          <folding>
-            <element signature="e#71#106#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa2448.28308/FullPost.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1270,10 +1248,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/FullPost/FullPost.js">
+    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Blog.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="14" column="94" lean-forward="false" selection-start-line="14" selection-start-column="94" selection-end-line="14" selection-end-column="94" />
+        <state relative-caret-position="288">
+          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -1290,12 +1268,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Blog.js">
+    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/FullPost/FullPost.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        <state relative-caret-position="244">
+          <caret line="14" column="94" lean-forward="false" selection-start-line="14" selection-start-column="94" selection-end-line="14" selection-end-column="94" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Posts/Posts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="32" column="47" lean-forward="false" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+          <folding>
+            <element signature="e#71#106#0" expanded="true" />
           </folding>
         </state>
       </provider>
