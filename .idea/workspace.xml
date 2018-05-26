@@ -4,18 +4,8 @@
     <bookmark url="file://$PROJECT_DIR$/02-burger-builder/src/components/Navigation/Toolbar/Toolbar.css" description="&#10;.Logo {&#10;    height: 80%;&#10;}" line="19" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73a7b0c8-97b5-4586-9886-67cb9114d957" name="Default" comment="axios config &amp; instances">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Posts/Posts.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Posts/Posts.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/04-http/blogPost/src/components/FullPost/FullPost.css" afterPath="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/FullPost/FullPost.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/04-http/blogPost/src/components/FullPost/FullPost.js" afterPath="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/FullPost/FullPost.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/04-http/blogPost/src/components/NewPost/NewPost.css" afterPath="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/NewPost/NewPost.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/04-http/blogPost/src/components/NewPost/NewPost.js" afterPath="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/NewPost/NewPost.js" />
+    <list default="true" id="73a7b0c8-97b5-4586-9886-67cb9114d957" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04-http/blogPost/package-lock.json" afterPath="$PROJECT_DIR$/04-http/blogPost/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04-http/blogPost/package.json" afterPath="$PROJECT_DIR$/04-http/blogPost/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04-http/blogPost/src/App.js" afterPath="$PROJECT_DIR$/04-http/blogPost/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Blog.css" afterPath="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Blog.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Blog.js" afterPath="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Blog.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -42,7 +32,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Posts.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Posts.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Posts/Posts.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
@@ -56,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Blog.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Blog.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Blog.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+            <state relative-caret-position="176">
+              <caret line="20" column="49" lean-forward="true" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -154,7 +144,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>onDecrementCounter</find>
       <find>onIncrementCounter</find>
       <find>result</find>
       <find>ctr</find>
@@ -184,6 +173,7 @@
       <find>body</find>
       <find>https://jsonplaceholder.typicode.com</find>
       <find>Posts</find>
+      <find>new-post</find>
     </findStrings>
     <replaceStrings>
       <replace>this.props</replace>
@@ -258,10 +248,10 @@
         <option value="$PROJECT_DIR$/04-http/blogPost/src/axios.js" />
         <option value="$PROJECT_DIR$/04-http/blogPost/src/index.js" />
         <option value="$PROJECT_DIR$/04-http/blogPost/src/App.js" />
-        <option value="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Blog.js" />
         <option value="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Blog.css" />
         <option value="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Posts/Posts.css" />
         <option value="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Posts/Posts.js" />
+        <option value="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Blog.js" />
       </list>
     </option>
   </component>
@@ -461,14 +451,7 @@
       <workItem from="1527088714365" duration="6075000" />
       <workItem from="1527137588804" duration="4066000" />
       <workItem from="1527240310978" duration="12995000" />
-      <workItem from="1527267654806" duration="7853000" />
-    </task>
-    <task id="LOCAL-00019" summary="stateless to statefull component">
-      <created>1519669480961</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1519669480961</updated>
+      <workItem from="1527267654806" duration="11004000" />
     </task>
     <task id="LOCAL-00020" summary="components life-cycle">
       <created>1519747352518</created>
@@ -806,16 +789,24 @@
       <option name="project" value="LOCAL" />
       <updated>1527269052821</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="routing">
+      <created>1527312594042</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1527312594042</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="278085000" />
+    <option name="totallyTimeSpent" value="281236000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1554" height="916" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18271768" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18271768" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948717" sideWeight="0.50791556" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849604" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -900,7 +891,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="responsive design &amp; Slidedrawer" />
     <MESSAGE value="mobile side corrections" />
     <MESSAGE value="counter without redux" />
     <MESSAGE value="Setting Up Reducer and Store" />
@@ -925,7 +915,8 @@
     <MESSAGE value="delete request" />
     <MESSAGE value="interseptors axios" />
     <MESSAGE value="axios config &amp; instances" />
-    <option name="LAST_COMMIT_MESSAGE" value="axios config &amp; instances" />
+    <MESSAGE value="routing" />
+    <option name="LAST_COMMIT_MESSAGE" value="routing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1284,16 +1275,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Blog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Posts/Posts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -1302,6 +1283,16 @@
             <element signature="e#71#106#0" expanded="true" />
             <element signature="n#!!block;n#componentDidMount#0;n#Posts#0" expanded="false" />
             <element signature="n#!!block;n#postSelectedHandler#0;n#Posts#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Blog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="20" column="49" lean-forward="true" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
