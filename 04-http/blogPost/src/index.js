@@ -11,7 +11,7 @@ axios.defaults.headers.post['Content-Type'] = 'application/json';
 
 
 axios.interceptors.request.use(requestConfig => {
-    console.log("request"+requestConfig)
+    // console.log("request"+requestConfig)
     return requestConfig;
 }, error => {
     console.log("error"+error)

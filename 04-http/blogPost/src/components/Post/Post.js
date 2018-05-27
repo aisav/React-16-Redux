@@ -3,7 +3,7 @@ import React from 'react';
 import './Post.css';
 
 const post = (props) => {
-    console.log(props.match)
+    // console.log(props.match)
     return <article className="Post" onClick={props.clicked}>
         <h1>{props.title}</h1>
         <div className="Info">
