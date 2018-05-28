@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 // import axios from 'axios';
 import axios from '../../../axios';
 
-import {Link} from 'react-router-dom';
+// import {Link} from 'react-router-dom';
 
 import Post from '../../../components/Post/Post'
 import FullPost from '../FullPost/FullPost'
@@ -32,6 +32,8 @@ class Posts extends Component {
     }
 
     postSelectedHandler(id) {
+
+        // redirect to {pathName}
         this.props.history.push({pathname: '/posts/'+id})
     }
 

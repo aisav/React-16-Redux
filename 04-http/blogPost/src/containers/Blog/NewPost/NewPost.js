@@ -25,6 +25,9 @@ class NewPost extends Component {
         axios.post('/posts',post).then(response => {
             // console.log(response)
             this.setState({submited: true});
+            // when we cannot setState
+            // this.props.history.push({pathname: '/posts/'})
+
         })
     }
 
