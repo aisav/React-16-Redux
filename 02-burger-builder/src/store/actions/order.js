@@ -42,7 +42,6 @@ export const purchaseBurgerFail = ( error ) => {
 
 
 export const fetchOrdersStart = () => {
-    console.log("===================start================")
 
     return {
         type: actionTypes.FETCH_ORDERS_START
@@ -51,7 +50,6 @@ export const fetchOrdersStart = () => {
 
 export const fetchOrders =  ()  => dispatch => {
 
-    console.log("===================================")
     dispatch(fetchOrdersStart())
 
     axios.get('/orders.json')
