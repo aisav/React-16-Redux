@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73a7b0c8-97b5-4586-9886-67cb9114d957" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02-burger-builder/src/store/reducers/burgerBuilder.test.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02-burger-builder/src/store/reducers/burgerBuilder.test.js" afterPath="$PROJECT_DIR$/02-burger-builder/src/store/reducers/burgerBuilder.test.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,8 +47,8 @@
       <file leaf-file-name="order.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02-burger-builder/src/store/actions/order.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+            <state relative-caret-position="198">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="e#121#184#0" expanded="false" />
                 <element signature="e#706#830#0" expanded="false" />
@@ -61,8 +61,8 @@
       <file leaf-file-name="burgerBuilder.test.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/02-burger-builder/src/store/reducers/burgerBuilder.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="43" column="27" lean-forward="false" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+            <state relative-caret-position="61">
+              <caret line="58" column="49" lean-forward="false" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="49" />
               <folding>
                 <element signature="e#0#54#0" expanded="true" />
               </folding>
@@ -73,7 +73,7 @@
       <file leaf-file-name="burgerBuilder.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02-burger-builder/src/store/reducers/burgerBuilder.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
+            <state relative-caret-position="88">
               <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="10" />
               <folding />
             </state>
@@ -84,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/02-burger-builder/src/store/actions/burgerBuilder.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="172">
-              <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+              <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -529,14 +529,8 @@
       <workItem from="1528688342084" duration="3646000" />
       <workItem from="1528694507291" duration="5780000" />
       <workItem from="1528865896614" duration="31074000" />
-      <workItem from="1528993284965" duration="1732000" />
-    </task>
-    <task id="LOCAL-00041" summary="Logo">
-      <created>1521394727038</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1521394727038</updated>
+      <workItem from="1528993284965" duration="2527000" />
+      <workItem from="1529000803934" duration="825000" />
     </task>
     <task id="LOCAL-00042" summary="navigation items">
       <created>1521398235258</created>
@@ -874,21 +868,29 @@
       <option name="project" value="LOCAL" />
       <updated>1528974171297</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="reducer test">
+      <created>1528995039660</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1528995039661</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="414823000" />
+    <option name="totallyTimeSpent" value="416443000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1554" height="916" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18271768" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849604" sideWeight="0.5065963" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34432718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24670185" sideWeight="0.49208444" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24670185" sideWeight="0.49208444" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -968,7 +970,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="post request" />
     <MESSAGE value="delete request" />
     <MESSAGE value="interseptors axios" />
     <MESSAGE value="axios config &amp; instances" />
@@ -993,7 +994,8 @@
     <MESSAGE value="mobile side" />
     <MESSAGE value="first test for NavigationItems cmpnnt" />
     <MESSAGE value="testing container" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing container" />
+    <MESSAGE value="reducer test" />
+    <option name="LAST_COMMIT_MESSAGE" value="reducer test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1014,9 +1016,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
           <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1038,9 +1037,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="586">
           <caret line="182" column="47" lean-forward="true" selection-start-line="182" selection-start-column="47" selection-end-line="182" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1050,9 +1046,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="49" column="38" lean-forward="false" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1076,7 +1069,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1196,14 +1188,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/02-burger-builder/src/store/actions/order.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        <state relative-caret-position="198">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="e#121#184#0" expanded="false" />
             <element signature="e#706#830#0" expanded="false" />
@@ -1222,13 +1213,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa6488.48142/auth.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa6488.48142/auth.test.js" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa6488.25151/auth.test.js" />
     <entry file="file://$PROJECT_DIR$/02-burger-builder/src/containers/BurgerBuilder/BurgerBuilder.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -1243,14 +1228,14 @@
     <entry file="file://$PROJECT_DIR$/02-burger-builder/src/store/actions/burgerBuilder.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
-          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/02-burger-builder/src/store/reducers/burgerBuilder.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
+        <state relative-caret-position="88">
           <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="10" />
           <folding />
         </state>
@@ -1258,8 +1243,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/02-burger-builder/src/store/reducers/burgerBuilder.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="43" column="27" lean-forward="false" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+        <state relative-caret-position="61">
+          <caret line="58" column="49" lean-forward="false" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="49" />
           <folding>
             <element signature="e#0#54#0" expanded="true" />
           </folding>

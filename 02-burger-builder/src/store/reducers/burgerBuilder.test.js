@@ -5,16 +5,16 @@ import reducer from './burgerBuilder';
 describe('========reducer========', () => {
     it('ADD_INGREDIENT', () => {
         expect(reducer({
-                    ingredients: {salad: 0},
-                    totalPrice: 5
+                ingredients: {salad: 0},
+                totalPrice: 5
             },
             {
                 type: actionTypes.ADD_INGREDIENT,
                 ingredientName: 'salad'
             }
         )).toEqual({
-                ingredients: {'salad': 1},
-                totalPrice: 5.5,
+            ingredients: {'salad': 1},
+            totalPrice: 5.5,
         });
     });
 
@@ -33,7 +33,6 @@ describe('========reducer========', () => {
                 ingredientName: 'cheese'
 
             }
-
         )).toEqual({
             ingredients: {
                 salad: 1,
@@ -46,17 +45,34 @@ describe('========reducer========', () => {
     });
 
     it('SET_INGREDIENTS', () => {
-        expect(reducer({
-                ingredients: {salad: 0},
-                totalPrice: 5
+        expect(reducer(
+            {
+                ingredients: {
+                    salad: 1,
+                    bacon: 0,
+                    cheese: 0,
+                    meat: 0
+                },
+                totalPrice: 5.5
             },
             {
-                type: actionTypes.ADD_INGREDIENT,
-                ingredientName: 'salad'
+                type: actionTypes.SET_INGREDIENTS,
+                ingredients: {
+                    salad: 0,
+                    bacon: 0,
+                    cheese: 0,
+                    meat: 0
+                }
             }
         )).toEqual({
-            ingredients: {'salad': 1},
-            totalPrice: 5.5,
+            ingredients: {
+                salad: 0,
+                bacon: 0,
+                cheese: 0,
+                meat: 0
+            },
+            totalPrice: 5,
+            error: false
         });
     });
 
