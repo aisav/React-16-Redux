@@ -3,8 +3,17 @@ import { Route, Switch, BrowserRouter  } from 'react-router-dom';
 
 import Layout from './components/Layout/Layout';
 import BurgerBuilder from './containers/BurgerBuilder/BurgerBuilder';
-import Orders from './containers/Orders/Orders';
-import Checkout from './containers/Checkout/Checkout';
+import asyncComponent from './hoc/asyncComponent/asyncComponent';
+
+
+const asyncCheckout = asyncComponent(() => {
+    return import('./containers/Checkout/Checkout');
+});
+
+const asyncOrders = asyncComponent(() => {
+    return import('./containers/Orders/Orders');
+});
+
 
 class App extends Component {
   render() {
@@ -12,8 +21,8 @@ class App extends Component {
       <BrowserRouter  >
         <Layout>
             <Switch>
-                <Route path="/orders" component={Orders} />
-                <Route path="/checkout" component={Checkout} />
+                <Route path="/orders" component={asyncOrders} />
+                <Route path="/checkout" component={asyncCheckout} />
                 <Route path="/" exact component={BurgerBuilder} />
             </Switch>
         </Layout>
