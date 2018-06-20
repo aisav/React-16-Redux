@@ -18,5 +18,14 @@ axios.interceptors.request.use(requestConfig => {
     // return Promise.resolve(error);
     return Promise.reject(error);
 })
+
+axios.interceptors.response.use(responseConfig => {
+    // console.log("request"+responseConfig)
+    return responseConfig;
+}, error => {
+    console.log("error:"+error)
+    // return Promise.resolve(error);
+    return Promise.reject(error);
+})
 ReactDOM.render( <App />, document.getElementById( 'root' ) );
 registerServiceWorker();
