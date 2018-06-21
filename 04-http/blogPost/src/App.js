@@ -12,7 +12,6 @@ class App extends Component {
                 <Fragment>
                     <Header/>
                     <Blog/>
-                    <Footer/>
                 </Fragment>
             </BrowserRouter>
         )

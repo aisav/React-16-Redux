@@ -1,11 +1,17 @@
 import React, {Component} from 'react';
 import axios from 'axios';
+import {Route, Link, Switch, Redirect} from 'react-router-dom';
 
 import './FullPost.css';
+import Messages from '../Messages/Messages'
+import NewMessage from '../NewMessage/NewMessage'
+// import FullMessage from '../FullMessage/FullMessage'
+import Button from 'material-ui/Button';
 
 class FullPost extends Component {
     state = {
-        loadedPost: {}
+        loadedPost: {},
+        comments: []
     }
 
     componentDidMount() {
@@ -30,6 +36,11 @@ class FullPost extends Component {
                         // console.log(response);
                         this.setState({loadedPost: response.data})
                     });
+                axios.get('/posts/' + this.props.match.params.postId+'/comments')
+                    .then(response => {
+                        console.log(response.data);
+                        this.setState({comments: response.data})
+                    });
             }
         }
     }
@@ -50,11 +61,21 @@ class FullPost extends Component {
         if (this.state.loadedPost) {
             post = (
                 <div className="FullPost">
+                    <Button component={Link} to={'/posts/'+this.state.loadedPost.id+'/new-message'}
+                            color="inherit">Add New Message</Button>
+                    <Button component={Link} to={'/posts/'+this.state.loadedPost.id+'/messages'}
+                            color="inherit">Show Messages</Button>
+
                     <h1>{this.state.loadedPost.title}</h1>
                     <p>{this.state.loadedPost.body}</p>
 {/*                    <div className="Edit">
                         <button onClick={this.deletePostHandler} className="Delete">Delete</button>
                     </div>*/}
+                    <Switch>
+                        {/*For 404 <Route render={() => <h1>Not found</h1>}/>*/}
+                        <Route path="/posts/:postId/new-message" component={NewMessage}/>
+                        <Route path="/posts/:postId/messages" component={Messages}/>
+                    </Switch>
                 </div>
 
             );

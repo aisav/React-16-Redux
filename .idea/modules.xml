@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/react-16-complete-guide.iml" filepath="$PROJECT_DIR$/.idea/react-16-complete-guide.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/React-16-Redux-Course.iml" filepath="$PROJECT_DIR$/.idea/React-16-Redux-Course.iml" />
     </modules>
   </component>
 </project>
