@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import axios from 'axios';
-import {Route, Link, Switch, Redirect} from 'react-router-dom';
+import {Route, Link, Switch} from 'react-router-dom';
 
 import './FullPost.css';
 import Messages from '../Messages/Messages'
@@ -38,7 +38,7 @@ class FullPost extends Component {
                     });
                 axios.get('/posts/' + this.props.match.params.postId+'/comments')
                     .then(response => {
-                        console.log(response.data);
+                        // console.log(response.data);
                         this.setState({comments: response.data})
                     });
             }
@@ -63,8 +63,7 @@ class FullPost extends Component {
                 <div className="FullPost">
                     <Button component={Link} to={'/posts/'+this.state.loadedPost.id+'/new-message'}
                             color="inherit">Add New Message</Button>
-                    <Button component={Link} to={'/posts/'+this.state.loadedPost.id+'/messages'}
-                            color="inherit">Show Messages</Button>
+
 
                     <h1>{this.state.loadedPost.title}</h1>
                     <p>{this.state.loadedPost.body}</p>

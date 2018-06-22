@@ -8,7 +8,7 @@ import axios from '../../../axios';
 import Message from '../../../components/Message/Message'
 import './Messages.css'
 
-import {Route} from 'react-router-dom'
+// import {Route} from 'react-router-dom'
 
 class Messages extends Component {
 
@@ -19,16 +19,28 @@ class Messages extends Component {
     componentDidMount() {
         // console.log(this.props);
         let url = '/posts/' + this.props.match.params.postId + '/comments'
-        axios.get(url).then(response => {
-            const comments = response.data;
-            const updatedComments = comments.map(comment => {
-                return {
-                    ...comment,
-                    author: 'Art'
-                }
+        let key = 'comments'+this.props.match.params.postId ;
+        if (!localStorage.hasOwnProperty(key)) {
+            axios.get(url).then(response => {
+                const comments = response.data;
+                const updatedComments = comments.map(comment => {
+                    return {
+                        ...comment,
+                        author: 'Art'
+                    }
+                })
+                this.setState({comments: updatedComments});
+                localStorage.setItem(key , JSON.stringify(updatedComments))
             })
-            this.setState({comments: updatedComments});
-        })
+        }
+        else {
+            let comments = JSON.parse(localStorage.getItem(key));
+            this.setState({comments: comments});
+        }
+    }
+
+    componentWillUnmount() {
+        localStorage.removeItem('comments' + this.props.match.params.postId )
     }
 
     commentSelectedHandler(id) {
@@ -38,21 +50,25 @@ class Messages extends Component {
     }
 
     commentDeletedHandler(id) {
-        console.log("remove comment with: " + id)
-        this.setState({
-            comments: this.state.comments.filter((c) => c.id !== id)
-        });
-        this.forceUpdate()
-        console.log("remove comment with: " + id)
+        // console.log("remove comment with: " + id)
+        // this.setState({
+        //     comments: this.state.comments.filter((c) => c.id !== id)
+        // });
+        // this.forceUpdate()
+        // console.log("remove comment with: " + id)
+
+        const list = [...this.state.comments];
+        const updatedList = list.filter(item => item.id !== id);
+
+        this.setState({ comments: updatedList });
+        localStorage.setItem('comments'+this.props.match.params.postId , JSON.stringify(updatedList));
 
     }
 
     render() {
-        console.log("++++++++++++++++++++++++")
-        console.log(this.props.match.params.postId)
-        console.log("++++++++++++++++++++++++")
+        // console.log(this.props.match.params.postId)
         // console.log(this.props.postId)
-        var comments = this.state.comments.map(comment => {
+        let comments = this.state.comments.map(comment => {
             return (
                 <div key={comment.id}>
                     <Message

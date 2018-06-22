@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Route, NavLink, Switch, Redirect} from 'react-router-dom';
+import {Route,  Switch, Redirect} from 'react-router-dom';
 // import {Grid, Paper} from 'material-ui';
 
 import './Blog.css';
@@ -8,7 +8,7 @@ import NewPost from './NewPost/NewPost'
 import FullPost from './FullPost/FullPost'
 
 
-const styles = {Paper: {padding: 20, marginTop: 10, marginBottom: 10}}
+// const styles = {Paper: {padding: 20, marginTop: 10, marginBottom: 10}}
 
 class Blog extends Component {
 
