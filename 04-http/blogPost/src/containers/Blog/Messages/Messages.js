@@ -18,23 +18,28 @@ class Messages extends Component {
 
     componentDidMount() {
         // console.log(this.props);
+
+        let postscomments = [];
+        let key = 'postscomments';
+        if(!localStorage.hasOwnProperty('postscomments')) {
+            localStorage.setItem(key, JSON.stringify(postscomments))
+        } else {
+            postscomments = JSON.parse(localStorage.getItem(key))
+        }
+
+
         let url = '/posts/' + this.props.match.params.postId + '/comments'
-        let key = 'comments'+this.props.match.params.postId ;
-        if (!localStorage.hasOwnProperty(key)) {
+        key = this.props.match.params.postId ;
+        if (postscomments[key] == null) {
             axios.get(url).then(response => {
                 const comments = response.data;
-                const updatedComments = comments.map(comment => {
-                    return {
-                        ...comment,
-                        author: 'Art'
-                    }
-                })
-                this.setState({comments: updatedComments});
-                localStorage.setItem(key , JSON.stringify(updatedComments))
+                this.setState({comments: comments});
+                postscomments[key] = comments
+                localStorage.setItem('postscomments' , JSON.stringify(postscomments))
             })
         }
         else {
-            let comments = JSON.parse(localStorage.getItem(key));
+            let comments = postscomments[key];
             this.setState({comments: comments});
         }
     }
@@ -55,7 +60,12 @@ class Messages extends Component {
         const updatedList = list.filter(item => item.id !== id);
 
         this.setState({ comments: updatedList });
-        localStorage.setItem('comments'+this.props.match.params.postId , JSON.stringify(updatedList));
+
+        let key = 'postscomments';
+        let postscomments = JSON.parse(localStorage.getItem(key))
+        let postId = this.props.match.params.postId
+        postscomments[postId] = updatedList
+        localStorage.setItem(key , JSON.stringify(postscomments));
 
     }
 
