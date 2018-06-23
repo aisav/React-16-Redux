@@ -39,9 +39,9 @@ class Messages extends Component {
         }
     }
 
-    componentWillUnmount() {
-        localStorage.removeItem('comments' + this.props.match.params.postId )
-    }
+    // componentWillUnmount() {
+    //     localStorage.removeItem('comments' + this.props.match.params.postId )
+    // }
 
     commentSelectedHandler(id) {
         let url = '/posts/' + this.props.match.params.postId + '/comments/' + id
@@ -50,12 +50,6 @@ class Messages extends Component {
     }
 
     commentDeletedHandler(id) {
-        // console.log("remove comment with: " + id)
-        // this.setState({
-        //     comments: this.state.comments.filter((c) => c.id !== id)
-        // });
-        // this.forceUpdate()
-        // console.log("remove comment with: " + id)
 
         const list = [...this.state.comments];
         const updatedList = list.filter(item => item.id !== id);

@@ -28,6 +28,20 @@ class NewPost extends Component {
             // when we cannot setState
             // this.props.history.push({pathname: '/posts/'})
 
+
+            let url = 'comments'+this.props.match.params.postId
+            let existingEntries = JSON.parse(localStorage.getItem(url));
+            if(existingEntries == null) existingEntries = [];
+            let cmn = {
+                ...this.state,
+                id: existingEntries.length + 1
+            }
+            existingEntries.push(cmn);
+            localStorage.setItem(url, JSON.stringify(existingEntries));
+
+            this.props.history.push({pathname: '/posts/' + this.props.match.params.postId + '/comments' })
+
+
         })
     }
 

@@ -73,7 +73,7 @@ class FullPost extends Component {
                     <Switch>
                         {/*For 404 <Route render={() => <h1>Not found</h1>}/>*/}
                         <Route path="/posts/:postId/new-message" component={NewMessage}/>
-                        <Route path="/posts/:postId/messages" component={Messages}/>
+                        <Route path="/posts/:postId/comments" component={Messages}/>
                     </Switch>
                 </div>
 
