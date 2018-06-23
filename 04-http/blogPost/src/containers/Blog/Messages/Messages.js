@@ -4,6 +4,7 @@ import React, {Component} from 'react';
 import axios from '../../../axios';
 
 // import {Link} from 'react-router-dom';
+import NewMessage from '../NewMessage/NewMessage'
 
 import Message from '../../../components/Message/Message'
 import './Messages.css'
@@ -21,7 +22,7 @@ class Messages extends Component {
 
         let postscomments = [];
         let key = 'postscomments';
-        if(!localStorage.hasOwnProperty('postscomments')) {
+        if (!localStorage.hasOwnProperty('postscomments')) {
             localStorage.setItem(key, JSON.stringify(postscomments))
         } else {
             postscomments = JSON.parse(localStorage.getItem(key))
@@ -29,13 +30,13 @@ class Messages extends Component {
 
 
         let url = '/posts/' + this.props.match.params.postId + '/comments'
-        key = this.props.match.params.postId ;
+        key = this.props.match.params.postId;
         if (postscomments[key] == null) {
             axios.get(url).then(response => {
                 const comments = response.data;
                 this.setState({comments: comments});
                 postscomments[key] = comments
-                localStorage.setItem('postscomments' , JSON.stringify(postscomments))
+                localStorage.setItem('postscomments', JSON.stringify(postscomments))
             })
         }
         else {
@@ -44,9 +45,6 @@ class Messages extends Component {
         }
     }
 
-    // componentWillUnmount() {
-    //     localStorage.removeItem('comments' + this.props.match.params.postId )
-    // }
 
     commentSelectedHandler(id) {
         let url = '/posts/' + this.props.match.params.postId + '/comments/' + id
@@ -59,15 +57,35 @@ class Messages extends Component {
         const list = [...this.state.comments];
         const updatedList = list.filter(item => item.id !== id);
 
-        this.setState({ comments: updatedList });
+        this.setState({comments: updatedList});
 
         let key = 'postscomments';
         let postscomments = JSON.parse(localStorage.getItem(key))
         let postId = this.props.match.params.postId
         postscomments[postId] = updatedList
-        localStorage.setItem(key , JSON.stringify(postscomments));
+        localStorage.setItem(key, JSON.stringify(postscomments));
 
     }
+
+
+    newMessage(comment) {
+
+        let key = 'postscomments'
+        let postId = this.props.match.params.postId
+        let postscomments = JSON.parse(localStorage.getItem(key));
+        let existingEntries = postscomments[postId];
+        if (existingEntries == null) existingEntries = [];
+        let cmn = {
+            ...comment,
+            id: existingEntries.length + 1
+        }
+        existingEntries.push(cmn);
+        postscomments[key] = existingEntries;
+        localStorage.setItem(key, JSON.stringify(postscomments));
+        this.setState({comments: existingEntries})
+
+    }
+
 
     render() {
         // console.log(this.props.match.params.postId)
@@ -86,12 +104,14 @@ class Messages extends Component {
                 </div>
             );
         });
+        this.newMessage = this.newMessage.bind(this)
 
         return (
             <div>
                 <section className="Posts">
                     {comments}
                 </section>
+                <NewMessage onNewMessage={this.newMessage} />
             </div>
         )
     }

@@ -4,7 +4,6 @@ import {Route, Link, Switch} from 'react-router-dom';
 
 import './FullPost.css';
 import Messages from '../Messages/Messages'
-import NewMessage from '../NewMessage/NewMessage'
 // import FullMessage from '../FullMessage/FullMessage'
 import Button from 'material-ui/Button';
 
@@ -72,7 +71,6 @@ class FullPost extends Component {
                     </div>*/}
                     <Switch>
                         {/*For 404 <Route render={() => <h1>Not found</h1>}/>*/}
-                        <Route path="/posts/:postId/new-message" component={NewMessage}/>
                         <Route path="/posts/:postId/comments" component={Messages}/>
                     </Switch>
                 </div>
