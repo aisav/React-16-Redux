@@ -3,7 +3,7 @@ import {Route, Switch} from 'react-router-dom';
 
 // import axios from 'axios';
 import axios from '../../../axios';
-
+import Button from 'material-ui/Button';
 // import {Link} from 'react-router-dom';
 import NewMessage from '../NewMessage/NewMessage'
 import EditMessage from '../EditMessage/EditMessage'
@@ -106,6 +106,13 @@ class Messages extends Component {
 
     }
 
+    sortMessages() {
+        const cmnts = [].concat(this.state.comments)
+            .sort((a, b) => a.id < b.id)
+
+        this.setState({comments: cmnts})
+    }
+
 
     render() {
         // console.log(this.props.match.params.postId)
@@ -141,6 +148,9 @@ class Messages extends Component {
 
         return (
             <div>
+                <Button color="primary" onClick={() => this.sortMessages()}>
+                    Order by ID
+                </Button>
                 <section className="Posts">
                     {comments}
                 </section>
