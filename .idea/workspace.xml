@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73a7b0c8-97b5-4586-9886-67cb9114d957" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Search/Search.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Messages/Messages.js" afterPath="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Messages/Messages.js" />
     </list>
@@ -70,13 +69,12 @@
       <file leaf-file-name="Messages.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Messages/Messages.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+            <state relative-caret-position="393">
+              <caret line="133" column="49" lean-forward="false" selection-start-line="133" selection-start-column="49" selection-end-line="133" selection-end-column="49" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
                 <element signature="e#119#154#0" expanded="true" />
                 <element signature="e#238#287#0" expanded="true" />
-                <element signature="n#!!block;n#componentDidMount#0;n#Messages#0" expanded="false" />
                 <element signature="n#!!block;n#commentSelectedHandler#0;n#Messages#0" expanded="false" />
                 <element signature="n#!!block;n#commentDeletedHandler#0;n#Messages#0" expanded="false" />
                 <element signature="n#!!block;n#editMessage#0;n#Messages#0" expanded="false" />
@@ -145,8 +143,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>axios</find>
-      <find>.find</find>
       <find>== comment</find>
       <find>loadedp</find>
       <find>loadedPost</find>
@@ -175,6 +171,8 @@
       <find>bind</find>
       <find>bi</find>
       <find>setst</find>
+      <find>loc</find>
+      <find>postscomments</find>
     </findStrings>
     <replaceStrings>
       <replace>this.props</replace>
@@ -559,14 +557,7 @@
       <workItem from="1529593349853" duration="13614000" />
       <workItem from="1529642304741" duration="26958000" />
       <workItem from="1529729949360" duration="49725000" />
-      <workItem from="1529815606774" duration="27553000" />
-    </task>
-    <task id="LOCAL-00057" summary="Outsourcing Action Types">
-      <created>1526629969755</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1526629969755</updated>
+      <workItem from="1529815606774" duration="29078000" />
     </task>
     <task id="LOCAL-00058" summary="action creators">
       <created>1526786033857</created>
@@ -904,11 +895,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529845489242</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="search">
+      <created>1529863173745</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1529863173745</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="613637000" />
+    <option name="totallyTimeSpent" value="615162000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -930,7 +928,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20844327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298153" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37131882" sideWeight="0.49208444" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37131882" sideWeight="0.49208444" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1009,7 +1007,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="combinereducer" />
     <MESSAGE value="fixes" />
     <MESSAGE value="removing logs" />
     <MESSAGE value="willMount later call fix" />
@@ -1034,7 +1031,8 @@
     <MESSAGE value="edit" />
     <MESSAGE value="order comments" />
     <MESSAGE value="edit after no update" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit after no update" />
+    <MESSAGE value="search" />
+    <option name="LAST_COMMIT_MESSAGE" value="search" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1088,7 +1086,6 @@
             <element signature="e#0#39#0" expanded="true" />
             <element signature="e#119#154#0" expanded="true" />
             <element signature="e#238#287#0" expanded="true" />
-            <element signature="n#!!block;n#componentDidMount#0;n#Messages#0" expanded="false" />
             <element signature="n#!!block;n#commentSelectedHandler#0;n#Messages#0" expanded="false" />
             <element signature="n#!!block;n#commentDeletedHandler#0;n#Messages#0" expanded="false" />
             <element signature="n#!!block;n#editMessage#0;n#Messages#0" expanded="false" />
@@ -1404,13 +1401,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Messages/Messages.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+        <state relative-caret-position="393">
+          <caret line="133" column="49" lean-forward="false" selection-start-line="133" selection-start-column="49" selection-end-line="133" selection-end-column="49" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
             <element signature="e#119#154#0" expanded="true" />
             <element signature="e#238#287#0" expanded="true" />
-            <element signature="n#!!block;n#componentDidMount#0;n#Messages#0" expanded="false" />
             <element signature="n#!!block;n#commentSelectedHandler#0;n#Messages#0" expanded="false" />
             <element signature="n#!!block;n#commentDeletedHandler#0;n#Messages#0" expanded="false" />
             <element signature="n#!!block;n#editMessage#0;n#Messages#0" expanded="false" />

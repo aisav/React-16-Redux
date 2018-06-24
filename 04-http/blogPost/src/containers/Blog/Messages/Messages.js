@@ -118,13 +118,23 @@ class Messages extends Component {
 
         // this.setState({searchText: searchText.toLowerCase()});
         //check Length
-        let comments  = this.state.comments
-        let filtered = comments.filter(comment => {
-            return comment.name.indexOf(searchText)>-1
-        })
-        this.setState({comments: filtered})
 
-    }
+        let key = 'postscomments'
+        let postId = this.props.match.params.postId;
+        let postscomments = JSON.parse(localStorage.getItem(key))
+        let comments = postscomments[postId]
+        if (comments)
+            if (searchText.length > 2) {
+                let filtered = comments.filter(comment => {
+                    return comment.name.indexOf(searchText) > -1
+                })
+                this.setState({comments: filtered})
+            }
+            else {
+                this.setState({comments: comments})
+            }
+
+                }
 
 
     render() {
@@ -162,7 +172,7 @@ class Messages extends Component {
 
         return (
             <div>
-                <Search onSearch={this.searchMessages} />
+                <Search onSearch={this.searchMessages}/>
                 <Button color="primary" onClick={() => this.sortMessages()}>
                     Order by ID
                 </Button>
