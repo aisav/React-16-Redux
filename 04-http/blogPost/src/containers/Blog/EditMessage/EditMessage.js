@@ -39,6 +39,9 @@ class EditMessage extends Component {
         }
 
         this.setState({loadedComment: cmnt})
+        this.setState({name: cmnt.name})
+        this.setState({body: cmnt.body})
+        this.setState({email: cmnt.email})
     }
 
     // onEditMessage
@@ -65,13 +68,13 @@ class EditMessage extends Component {
                 <div className="NewPost">
                     <h1>Edit the Message</h1>
                     <label>Name</label>
-                    <input type="text" defaultValue={this.state.loadedComment.name}
+                    <input type="text" value={this.state.loadedComment.name}
                            onChange={(event) => this.setState({name: event.target.value})}/>
                     <label>Content</label>
-                    <textarea rows="4" defaultValue={this.state.loadedComment.body}
+                    <textarea rows="4" value={this.state.loadedComment.body}
                               onChange={(event) => this.setState({body: event.target.value})}/>
                     <label>Email</label>
-                    <input type="text" defaultValue={this.state.loadedComment.email}
+                    <input type="text" value={this.state.loadedComment.email}
                            onChange={(event) => this.setState({email: event.target.value})}/>
                     <button onClick={() => this.postDataHandler()}>Update</button>
                 </div>
