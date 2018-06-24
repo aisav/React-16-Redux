@@ -6,6 +6,7 @@ import './FullPost.css';
 import Messages from '../Messages/Messages'
 // import FullMessage from '../FullMessage/FullMessage'
 import Button from 'material-ui/Button';
+import EditMessage from '../EditMessage/EditMessage'
 
 class FullPost extends Component {
     state = {
@@ -60,9 +61,6 @@ class FullPost extends Component {
         if (this.state.loadedPost) {
             post = (
                 <div className="FullPost">
-                    <Button component={Link} to={'/posts/'+this.state.loadedPost.id+'/new-message'}
-                            color="inherit">Add New Message</Button>
-
 
                     <h1>{this.state.loadedPost.title}</h1>
                     <p>{this.state.loadedPost.body}</p>
@@ -71,6 +69,7 @@ class FullPost extends Component {
                     </div>*/}
                     <Switch>
                         {/*For 404 <Route render={() => <h1>Not found</h1>}/>*/}
+                        <Route path='/posts/:postId/comments/:commentId' component={EditMessage}/>
                         <Route path="/posts/:postId/comments" component={Messages}/>
                     </Switch>
                 </div>

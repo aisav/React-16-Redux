@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import {Route,  Switch, Redirect} from 'react-router-dom';
 // import {Grid, Paper} from 'material-ui';
+import EditMessage from './EditMessage/EditMessage'
+import Messages from './Messages/Messages'
 
 import './Blog.css';
 import Posts from './Posts/Posts'
@@ -19,9 +21,9 @@ class Blog extends Component {
                 <Switch>
                     <Route path="/new-post" component={NewPost}/>
                     <Route path="/posts" exact component={Posts}/>
-                    <Route path="/posts/:postId" component={FullPost}/>
+                    <Route path="/posts/:postId"  component={FullPost}/>
                     {/*For 404 <Route render={() => <h1>Not found</h1>}/>*/}
-                    <Redirect from="/" to="/posts"/>
+                    <Redirect from="/" exact to="/posts"/>
 
                 </Switch>
             </div>

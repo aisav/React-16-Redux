@@ -6,14 +6,14 @@ class NewMessage extends Component {
     state = {
         name: '',
         email: '',
-        content: '',
+        body: '',
         submited: false
     }
 
     postDataHandler = () => {
         const post = {
             name: this.state.name,
-            body: this.state.content,
+            body: this.state.body,
             email: this.state.email
         }
         this.props.onNewMessage(post)
@@ -29,8 +29,8 @@ class NewMessage extends Component {
                 <input type="text" value={this.state.name}
                        onChange={(event) => this.setState({name: event.target.value})}/>
                 <label>Content</label>
-                <textarea rows="4" value={this.state.content}
-                          onChange={(event) => this.setState({content: event.target.value})}/>
+                <textarea rows="4" value={this.state.body}
+                          onChange={(event) => this.setState({body: event.target.value})}/>
                 <label>Email</label>
                 <input type="text" value={this.state.email}
                        onChange={(event) => this.setState({email: event.target.value})}/>

@@ -6,18 +6,20 @@ import Delete from 'material-ui/Icon';
 
 const post = (props) => {
     // console.log(props.match)
-    return <article className="Post" >
-            <Button  color="secondary" onClick={props.deleted}>
+    return (
+        <div>
+            <article className="Post" onClick={() => props.clicked()}>
+                <h1>{props.name}</h1>
+                <h1>{props.email}</h1>
+                <div>{props.body}</div>
+            </article>
+            <Button color="secondary" onClick={props.deleted}>
                 Delete
-                <Delete />
+                <Delete/>
             </Button>
+        </div>
 
-
-
-        <h1 >{props.name}</h1>
-            <h1 >{props.email}</h1>
-            <div >{props.body}</div>
-    </article>
+    )
 
 };
 
