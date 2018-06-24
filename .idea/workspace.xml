@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73a7b0c8-97b5-4586-9886-67cb9114d957" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Search/Search.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/EditMessage/EditMessage.js" afterPath="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/EditMessage/EditMessage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Messages/Messages.js" afterPath="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Messages/Messages.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -49,37 +50,49 @@
       <file leaf-file-name="Posts.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Posts/Posts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-102">
-              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EditMessage.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EditMessage.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/EditMessage/EditMessage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="43" column="42" lean-forward="true" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Messages.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Messages.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Messages/Messages.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="151" column="31" lean-forward="false" selection-start-line="151" selection-start-column="31" selection-end-line="151" selection-end-column="31" />
+            <state relative-caret-position="57">
+              <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
                 <element signature="e#119#154#0" expanded="true" />
                 <element signature="e#238#287#0" expanded="true" />
-                <element signature="e#516#544#0" expanded="false" />
                 <element signature="n#!!block;n#componentDidMount#0;n#Messages#0" expanded="false" />
                 <element signature="n#!!block;n#commentSelectedHandler#0;n#Messages#0" expanded="false" />
                 <element signature="n#!!block;n#commentDeletedHandler#0;n#Messages#0" expanded="false" />
+                <element signature="n#!!block;n#editMessage#0;n#Messages#0" expanded="false" />
+                <element signature="n#!!block;n#newMessage#0;n#Messages#0" expanded="false" />
+                <element signature="n#!!block;n#sortMessages#0;n#Messages#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Search.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Search/Search.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -87,9 +100,23 @@
       <file leaf-file-name="Message.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/components/Message/Message.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="84">
+              <caret line="4" column="38" lean-forward="true" selection-start-line="4" selection-start-column="38" selection-end-line="8" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Header.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/components/layout/Header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,10 +145,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>s.p</find>
-      <find>loadedpo</find>
-      <find>&lt;route p</find>
-      <find>==</find>
       <find>axios</find>
       <find>.find</find>
       <find>== comment</find>
@@ -140,14 +163,18 @@
       <find>/mess</find>
       <find>.p</find>
       <find>editMessage</find>
-      <find>handl</find>
       <find>.pr</find>
       <find>id/c</find>
       <find>add</find>
       <find>one</find>
       <find>butt</find>
+      <find>handl</find>
       <find>add</find>
       <find>loadedComment</find>
+      <find>searchText</find>
+      <find>bind</find>
+      <find>bi</find>
+      <find>setst</find>
     </findStrings>
     <replaceStrings>
       <replace>this.props</replace>
@@ -192,8 +219,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/02-burger-builder/src/components/UI/Backdrop/Backdrop.js" />
-        <option value="$USER_HOME$/AppData/Local/Temp/Rar$DIa6100.032/CheckoutSummary.js" />
         <option value="$PROJECT_DIR$/02-burger-builder/src/components/UI/Button/Button.js" />
         <option value="$PROJECT_DIR$/02-burger-builder/src/components/Order/Order.css" />
         <option value="$PROJECT_DIR$/02-burger-builder/src/components/Order/CheckoutSummary/CheckoutSummary.js" />
@@ -241,8 +266,10 @@
         <option value="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/NewMessage/NewMessage.js" />
         <option value="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Blog.js" />
         <option value="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/FullPost/FullPost.js" />
-        <option value="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Messages/Messages.js" />
         <option value="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/EditMessage/EditMessage.js" />
+        <option value="$PROJECT_DIR$/04-http/blogPost/src/components/Message/Search/Search.js" />
+        <option value="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Search/Search.js" />
+        <option value="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Messages/Messages.js" />
       </list>
     </option>
   </component>
@@ -414,6 +441,16 @@
               <item name="Blog" type="462c0819:PsiDirectoryNode" />
               <item name="Posts" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="React-16-Redux-Course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="React-16-Redux-Course" type="462c0819:PsiDirectoryNode" />
+              <item name="04-http" type="462c0819:PsiDirectoryNode" />
+              <item name="blogPost" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="Search" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -434,19 +471,19 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\art\WebstormProjects\React-16-Redux-Course\04-http\blogPost\src\containers\Blog\Posts" />
-      <recent name="C:\Users\art\WebstormProjects\React-16-Redux-Course\02-burger-builder\src\hoc\asyncComponent" />
-      <recent name="C:\Users\art\WebstormProjects\React-16-Redux-Course\02-burger-builder\src\store\reducers" />
-      <recent name="C:\Users\art\WebstormProjects\React-16-Redux-Course\02-burger-builder\src\store\actions" />
-      <recent name="C:\Users\art\WebstormProjects\React-16-Redux-Course\04-http\blogPost\src\containers\Blog" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\art\WebstormProjects\React-16-Redux-Course\04-http\blogPost\src\containers\Blog" />
       <recent name="C:\Users\art\WebstormProjects\React-16-Redux-Course\04-http\blogPost\src\containers" />
       <recent name="C:\Users\art\WebstormProjects\React-16-Redux-Course\04-http\blogPost\src\components" />
       <recent name="C:\Users\art\WebstormProjects\React-16-Redux-Course\02-burger-builder\src\hoc" />
       <recent name="C:\Users\art\WebstormProjects\React-16-Redux-Course\02-burger-builder\src\store\reducers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\art\WebstormProjects\React-16-Redux-Course\04-http\blogPost\src\containers\Blog" />
+      <recent name="C:\Users\art\WebstormProjects\React-16-Redux-Course\04-http\blogPost\src\containers\Blog\Posts" />
+      <recent name="C:\Users\art\WebstormProjects\React-16-Redux-Course\02-burger-builder\src\hoc\asyncComponent" />
+      <recent name="C:\Users\art\WebstormProjects\React-16-Redux-Course\02-burger-builder\src\store\reducers" />
+      <recent name="C:\Users\art\WebstormProjects\React-16-Redux-Course\02-burger-builder\src\store\actions" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -522,14 +559,7 @@
       <workItem from="1529593349853" duration="13614000" />
       <workItem from="1529642304741" duration="26958000" />
       <workItem from="1529729949360" duration="49725000" />
-      <workItem from="1529815606774" duration="18122000" />
-    </task>
-    <task id="LOCAL-00056" summary="Updating Arrays Immutably">
-      <created>1526628645638</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1526628645638</updated>
+      <workItem from="1529815606774" duration="27553000" />
     </task>
     <task id="LOCAL-00057" summary="Outsourcing Action Types">
       <created>1526629969755</created>
@@ -867,11 +897,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529844616038</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="edit after no update">
+      <created>1529845489242</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1529845489242</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="604206000" />
+    <option name="totallyTimeSpent" value="613637000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -884,15 +921,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1554" height="916" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16358839" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16124837" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298153" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849604" sideWeight="0.5065963" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849604" sideWeight="0.4934037" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20844327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298153" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13588391" sideWeight="0.49208444" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37131882" sideWeight="0.49208444" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -971,7 +1009,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="checkout container" />
     <MESSAGE value="combinereducer" />
     <MESSAGE value="fixes" />
     <MESSAGE value="removing logs" />
@@ -996,7 +1033,8 @@
     <MESSAGE value="new message under list" />
     <MESSAGE value="edit" />
     <MESSAGE value="order comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="order comments" />
+    <MESSAGE value="edit after no update" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit after no update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1005,34 +1043,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/RightPane.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#49#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Blog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <element signature="e#143#194#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Posts/Posts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1276">
@@ -1078,10 +1088,12 @@
             <element signature="e#0#39#0" expanded="true" />
             <element signature="e#119#154#0" expanded="true" />
             <element signature="e#238#287#0" expanded="true" />
-            <element signature="e#516#544#0" expanded="false" />
             <element signature="n#!!block;n#componentDidMount#0;n#Messages#0" expanded="false" />
             <element signature="n#!!block;n#commentSelectedHandler#0;n#Messages#0" expanded="false" />
             <element signature="n#!!block;n#commentDeletedHandler#0;n#Messages#0" expanded="false" />
+            <element signature="n#!!block;n#editMessage#0;n#Messages#0" expanded="false" />
+            <element signature="n#!!block;n#newMessage#0;n#Messages#0" expanded="false" />
+            <element signature="n#!!block;n#sortMessages#0;n#Messages#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1090,7 +1102,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1252,16 +1266,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/components/layout/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -1306,24 +1310,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/NewMessage/NewMessage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="9" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Posts/Posts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Blog.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -1346,35 +1332,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/components/Message/Message.js">
+    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/components/Message/Message.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Messages/Messages.js">
+    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Posts/Posts.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="151" column="31" lean-forward="false" selection-start-line="151" selection-start-column="31" selection-end-line="151" selection-end-column="31" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Posts/Posts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/NewMessage/NewMessage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="9" selection-end-column="23" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
-            <element signature="e#119#154#0" expanded="true" />
-            <element signature="e#238#287#0" expanded="true" />
-            <element signature="e#516#544#0" expanded="false" />
-            <element signature="n#!!block;n#componentDidMount#0;n#Messages#0" expanded="false" />
-            <element signature="n#!!block;n#commentSelectedHandler#0;n#Messages#0" expanded="false" />
-            <element signature="n#!!block;n#commentDeletedHandler#0;n#Messages#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/components/layout/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/EditMessage/EditMessage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="43" column="42" lean-forward="true" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/components/Message/Message.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="38" lean-forward="true" selection-start-line="4" selection-start-column="38" selection-end-line="8" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Search/Search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Messages/Messages.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#119#154#0" expanded="true" />
+            <element signature="e#238#287#0" expanded="true" />
+            <element signature="n#!!block;n#componentDidMount#0;n#Messages#0" expanded="false" />
+            <element signature="n#!!block;n#commentSelectedHandler#0;n#Messages#0" expanded="false" />
+            <element signature="n#!!block;n#commentDeletedHandler#0;n#Messages#0" expanded="false" />
+            <element signature="n#!!block;n#editMessage#0;n#Messages#0" expanded="false" />
+            <element signature="n#!!block;n#newMessage#0;n#Messages#0" expanded="false" />
+            <element signature="n#!!block;n#sortMessages#0;n#Messages#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -7,6 +7,7 @@ import Button from 'material-ui/Button';
 // import {Link} from 'react-router-dom';
 import NewMessage from '../NewMessage/NewMessage'
 import EditMessage from '../EditMessage/EditMessage'
+import Search from '../Search/Search'
 
 import Message from '../../../components/Message/Message'
 import './Messages.css'
@@ -16,7 +17,8 @@ import './Messages.css'
 class Messages extends Component {
 
     state = {
-        comments: []
+        comments: [],
+        searchText: ''
     }
 
     componentDidMount() {
@@ -69,7 +71,6 @@ class Messages extends Component {
 
     }
 
-
     editMessage(comment, postId, commentId) {
 
         let key = 'postscomments'
@@ -113,6 +114,18 @@ class Messages extends Component {
         this.setState({comments: cmnts})
     }
 
+    searchMessages(searchText) {
+
+        // this.setState({searchText: searchText.toLowerCase()});
+        //check Length
+        let comments  = this.state.comments
+        let filtered = comments.filter(comment => {
+            return comment.name.indexOf(searchText)>-1
+        })
+        this.setState({comments: filtered})
+
+    }
+
 
     render() {
         // console.log(this.props.match.params.postId)
@@ -134,6 +147,7 @@ class Messages extends Component {
 
         this.newMessage = this.newMessage.bind(this)
         this.editMessage = this.editMessage.bind(this)
+        this.searchMessages = this.searchMessages.bind(this)
 
         // if (this.props.match.params.postId != null && this.props.match.params.commentsId != null) {
         //     return (
@@ -148,6 +162,7 @@ class Messages extends Component {
 
         return (
             <div>
+                <Search onSearch={this.searchMessages} />
                 <Button color="primary" onClick={() => this.sortMessages()}>
                     Order by ID
                 </Button>
