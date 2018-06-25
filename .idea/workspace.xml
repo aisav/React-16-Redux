@@ -6,11 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="73a7b0c8-97b5-4586-9886-67cb9114d957" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04-http/blogPost/src/components/layout/Header.js" afterPath="$PROJECT_DIR$/04-http/blogPost/src/components/layout/Header.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/EditMessage/EditMessage.js" afterPath="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/EditMessage/EditMessage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/FullPost/FullPost.js" afterPath="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/FullPost/FullPost.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Messages/Messages.js" afterPath="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Messages/Messages.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/NewMessage/NewMessage.js" afterPath="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/NewMessage/NewMessage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Posts/Posts.js" afterPath="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Posts/Posts.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EditMessage.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EditMessage.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/EditMessage/EditMessage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="93" column="64" lean-forward="false" selection-start-line="93" selection-start-column="64" selection-end-line="93" selection-end-column="64" />
+            <state relative-caret-position="485">
+              <caret line="105" column="22" lean-forward="true" selection-start-line="78" selection-start-column="16" selection-end-line="105" selection-end-column="22" />
               <folding>
                 <element signature="e#202#242#0" expanded="true" />
               </folding>
@@ -39,8 +37,8 @@
       <file leaf-file-name="NewMessage.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/NewMessage/NewMessage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-84">
-              <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state relative-caret-position="506">
+              <caret line="46" column="16" lean-forward="false" selection-start-line="28" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -48,27 +46,24 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="FullPost.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/FullPost/FullPost.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="65">
+              <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Messages.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Messages/Messages.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="51" column="31" lean-forward="false" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
+            <state relative-caret-position="173">
+              <caret line="27" column="15" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="15" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
                 <element signature="e#238#287#0" expanded="true" />
-                <element signature="n#!!block;n#componentDidMount#0;n#Messages#0" expanded="false" />
-                <marker date="1529925759765" expanded="true" signature="578:6096" ph="{...}" />
-                <marker date="1529925759765" expanded="false" signature="4370:6094" ph="{...}" />
-                <marker date="1529925759765" expanded="true" signature="4380:4468" ph="//..." />
-                <marker date="1529925759765" expanded="true" signature="4527:5055" ph="{...}" />
-                <marker date="1529925759765" expanded="true" signature="4566:5030" ph="&lt;div/&gt;" />
-                <marker date="1529925759765" expanded="true" signature="4609:5007" ph="&lt;Message/&gt;" />
-                <marker date="1529925759765" expanded="true" signature="4776:4846" ph="//..." />
-                <marker date="1529925759765" expanded="true" signature="5237:5609" ph="//..." />
-                <marker date="1529925759765" expanded="true" signature="5641:6078" ph="&lt;div/&gt;" />
-                <marker date="1529925759765" expanded="true" signature="5663:5899" ph="&lt;div/&gt;" />
-                <marker date="1529925759765" expanded="true" signature="5742:5876" ph="&lt;Button/&gt;" />
-                <marker date="1529925759765" expanded="true" signature="5916:6059" ph="&lt;List/&gt;" />
               </folding>
             </state>
           </provider>
@@ -120,12 +115,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Message.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Message.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/components/Message/Message.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="202">
+              <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,11 +139,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>onEditMessage</find>
-      <find>Id/com</find>
-      <find>editmess</find>
-      <find>commentSelectedHandler</find>
-      <find>editm</find>
       <find>/mess</find>
       <find>.p</find>
       <find>editMessage</find>
@@ -172,6 +164,11 @@
       <find>tooltipposition</find>
       <find>ax</find>
       <find>handleChange</find>
+      <find>classes</find>
+      <find>&lt;addm</find>
+      <find>nent =</find>
+      <find>&lt;route</find>
+      <find>key</find>
     </findStrings>
     <replaceStrings>
       <replace>this.props</replace>
@@ -259,15 +256,15 @@
         <option value="$PROJECT_DIR$/04-http/blogPost/src/components/layout/Footer.js" />
         <option value="$PROJECT_DIR$/04-http/blogPost/src/components/layout/Header.js" />
         <option value="$PROJECT_DIR$/04-http/blogPost/src/App.js" />
-        <option value="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/NewMessage/NewMessage.js" />
         <option value="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Blog.js" />
-        <option value="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/FullPost/FullPost.js" />
         <option value="$PROJECT_DIR$/04-http/blogPost/src/components/Message/Search/Search.js" />
         <option value="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Search/Search.js" />
         <option value="$PROJECT_DIR$/04-http/blogPost/src/components/Message/Message.js" />
-        <option value="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Messages/Messages.js" />
         <option value="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Posts/Posts.js" />
         <option value="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/EditMessage/EditMessage.js" />
+        <option value="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Messages/Messages.js" />
+        <option value="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/NewMessage/NewMessage.js" />
+        <option value="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/FullPost/FullPost.js" />
       </list>
     </option>
   </component>
@@ -569,13 +566,6 @@
       <workItem from="1529729949360" duration="49725000" />
       <workItem from="1529815606774" duration="32105000" />
       <workItem from="1529899277196" duration="11612000" />
-    </task>
-    <task id="LOCAL-00059" summary="Handling Asynchronous Code">
-      <created>1526789276938</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1526789276938</updated>
     </task>
     <task id="LOCAL-00060" summary="fixing results key">
       <created>1526789356200</created>
@@ -913,11 +903,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529864948836</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="ui">
+      <created>1529928756697</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1529928756697</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="633536000" />
+    <option name="totallyTimeSpent" value="638147000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -930,14 +927,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1554" height="916" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16358839" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16358839" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298153" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20742637" sideWeight="0.50585175" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849604" sideWeight="0.4934037" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21372032" sideWeight="0.49414825" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21372032" sideWeight="0.49414825" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298153" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3707124" sideWeight="0.49208444" order="7" side_tool="false" content_ui="tabs" />
@@ -1028,7 +1024,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="removing logs" />
     <MESSAGE value="willMount later call fix" />
     <MESSAGE value="orsers reducer updated" />
     <MESSAGE value="orders functionality and page" />
@@ -1053,7 +1048,8 @@
     <MESSAGE value="edit after no update" />
     <MESSAGE value="search" />
     <MESSAGE value="search cancel fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="search cancel fix" />
+    <MESSAGE value="ui" />
+    <option name="LAST_COMMIT_MESSAGE" value="ui" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1066,7 +1062,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1262,17 +1260,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/FullPost/FullPost.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="67" column="29" lean-forward="false" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-            <element signature="e#247#287#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/components/Message/Message.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1285,16 +1272,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/NewMessage/NewMessage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-84">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1334,48 +1311,6 @@
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa4532.14148/TodoApp.jsx" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa4532.16286/Todo.jsx" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa4532.18166/TodoAPI.jsx" />
-    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/EditMessage/EditMessage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="93" column="64" lean-forward="false" selection-start-line="93" selection-start-column="64" selection-end-line="93" selection-end-column="64" />
-          <folding>
-            <element signature="e#202#242#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/components/Message/Message.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Messages/Messages.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="51" column="31" lean-forward="false" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <element signature="e#238#287#0" expanded="true" />
-            <element signature="n#!!block;n#componentDidMount#0;n#Messages#0" expanded="false" />
-            <marker date="1529925759765" expanded="true" signature="578:6096" ph="{...}" />
-            <marker date="1529925759765" expanded="false" signature="4370:6094" ph="{...}" />
-            <marker date="1529925759765" expanded="true" signature="4380:4468" ph="//..." />
-            <marker date="1529925759765" expanded="true" signature="4527:5055" ph="{...}" />
-            <marker date="1529925759765" expanded="true" signature="4566:5030" ph="&lt;div/&gt;" />
-            <marker date="1529925759765" expanded="true" signature="4609:5007" ph="&lt;Message/&gt;" />
-            <marker date="1529925759765" expanded="true" signature="4776:4846" ph="//..." />
-            <marker date="1529925759765" expanded="true" signature="5237:5609" ph="//..." />
-            <marker date="1529925759765" expanded="true" signature="5641:6078" ph="&lt;div/&gt;" />
-            <marker date="1529925759765" expanded="true" signature="5663:5899" ph="&lt;div/&gt;" />
-            <marker date="1529925759765" expanded="true" signature="5742:5876" ph="&lt;Button/&gt;" />
-            <marker date="1529925759765" expanded="true" signature="5916:6059" ph="&lt;List/&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Posts/Posts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
@@ -1393,6 +1328,55 @@
             <marker date="1529926122234" expanded="true" signature="1252:1322" ph="//..." />
             <marker date="1529926122234" expanded="true" signature="1484:1595" ph="&lt;div/&gt;" />
             <marker date="1529926122234" expanded="true" signature="1502:1576" ph="&lt;section/&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/EditMessage/EditMessage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="105" column="22" lean-forward="true" selection-start-line="78" selection-start-column="16" selection-end-line="105" selection-end-column="22" />
+          <folding>
+            <element signature="e#202#242#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/NewMessage/NewMessage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="46" column="16" lean-forward="false" selection-start-line="28" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/FullPost/FullPost.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Messages/Messages.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="27" column="15" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#238#287#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/components/Message/Message.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>

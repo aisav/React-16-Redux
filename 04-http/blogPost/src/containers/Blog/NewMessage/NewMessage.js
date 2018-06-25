@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 
 import './NewMessage.css';
+import Button from 'material-ui/Button';
+import TextField from 'material-ui/TextField'
 
 class NewMessage extends Component {
     state = {
@@ -22,20 +24,37 @@ class NewMessage extends Component {
     render() {
 
         return (
-            <div className="NewPost">
-                <h1>Add a Message</h1>
-                <label>Name</label>
-                <input type="text" value={this.state.name}
-                       onChange={(event) => this.setState({name: event.target.value})}/>
-                <label>Content</label>
-                <textarea rows="4" value={this.state.body}
-                          onChange={(event) => this.setState({body: event.target.value})}/>
-                <label>Email</label>
-                <input type="text" value={this.state.email}
-                       onChange={(event) => this.setState({email: event.target.value})}/>
-                <button onClick={this.postDataHandler}>Add Post</button>
+            <div>
+                <h3>Create a New Message</h3>
+                <TextField
+                    id="name"
+                    label="Name"
+                    value={this.state.name}
+                    onChange={(event) => this.setState({name: event.target.value})}
+                    margin="normal"
+                    fullWidth
+                /><br/>
+                <TextField
+                    id="multiline"
+                    label="Body"
+                    multiline
+                    rowsMax="4"
+                    value={this.state.body}
+                    onChange={(event) => this.setState({body: event.target.value})}
+                    fullWidth
+                    margin="normal"
+                /><br/>
+                <Button
+                    type='submit'
+                    color='primary'
+                    onClick={() => this.postDataHandler()}
+                    variant='raised'
+                >
+                    Create
+                </Button>
             </div>
-        );
+        )
+            ;
     }
 }
 

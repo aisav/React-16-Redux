@@ -178,6 +178,7 @@ class Messages extends Component {
                 <List style={{marginLeft: '5%'}} subheader="Messages List for selected Post">
                     <ul>{ comments }</ul>
                 </List>
+                <NewMessage onNewMessage={this.newMessage}/>
             </div>
         )
     }
