@@ -49,7 +49,6 @@ class Messages extends Component {
         }
     }
 
-
     commentSelectedHandler(id) {
         let url = '/posts/' + this.props.match.params.postId + '/comments/' + id
         // redirect to {pathName}
@@ -83,8 +82,7 @@ class Messages extends Component {
         postscomments[key] = existingEntries;
         localStorage.setItem(key, JSON.stringify(postscomments));
         // this.setState({comments: existingEntries})
-        let url = '/posts/' + this.props.match.params.postId + '/comments'
-        this.props.history.push({pathname: url})
+
 
 
     }
@@ -126,7 +124,7 @@ class Messages extends Component {
         if (comments)
             if (searchText.length > 2) {
                 let filtered = comments.filter(comment => {
-                    return comment.name.indexOf(searchText) > -1
+                    return comment.body.indexOf(searchText) > -1
                 })
                 this.setState({comments: filtered})
             }
@@ -135,7 +133,6 @@ class Messages extends Component {
             }
 
                 }
-
 
     render() {
         // console.log(this.props.match.params.postId)

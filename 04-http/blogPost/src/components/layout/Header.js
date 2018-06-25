@@ -12,7 +12,7 @@ export default props =>
                 REACT.JS APPLICATION
             </Typography>
             <Button component={Link} to="/posts" color="inherit">Posts</Button>
-            <Button component={Link} to="/new-post" color="inherit">New Post</Button>
+            {/*<Button component={Link} to="/new-post" color="inherit">New Post</Button>*/}
         </Toolbar>
     </AppBar>
 

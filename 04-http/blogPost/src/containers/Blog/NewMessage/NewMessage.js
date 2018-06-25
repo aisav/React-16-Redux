@@ -7,7 +7,6 @@ class NewMessage extends Component {
         name: '',
         email: '',
         body: '',
-        submited: false
     }
 
     postDataHandler = () => {
