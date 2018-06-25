@@ -8,9 +8,9 @@ import Button from 'material-ui/Button';
 import NewMessage from '../NewMessage/NewMessage'
 import EditMessage from '../EditMessage/EditMessage'
 import Search from '../Search/Search'
-
+import List from 'material-ui/List';
 import Message from '../../../components/Message/Message'
-import './Messages.css'
+// import './Messages.css'
 
 // import {Route} from 'react-router-dom'
 
@@ -172,17 +172,15 @@ class Messages extends Component {
 
         return (
             <div>
+                <div>
                 <Search onSearch={this.searchMessages}/>
                 <Button color="primary" onClick={() => this.sortMessages()}>
-                    Order by ID
+                    Order messages by ID (desc)
                 </Button>
-                <section className="Posts">
-                    {comments}
-                </section>
-                <NewMessage onNewMessage={this.newMessage}/>
-                <Switch>
-
-                </Switch>
+                </div>
+                <List style={{marginLeft: '5%'}} subheader="Messages List for selected Post">
+                    <ul>{ comments }</ul>
+                </List>
             </div>
         )
     }
