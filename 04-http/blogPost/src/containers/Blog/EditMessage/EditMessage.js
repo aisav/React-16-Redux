@@ -21,11 +21,6 @@ class EditMessage extends Component {
         this.loadData();
     }
 
-    // componentDidMount() {
-    //
-    //     // console.log(this.props)
-    //     this.loadData();
-    // }
 
     loadData() {
         let key = 'postscomments'
@@ -53,14 +48,16 @@ class EditMessage extends Component {
     postDataHandler() {
         let postId = this.props.match.params.postId
         let commentId = this.props.match.params.commentId
-        console.log(this.state.loadedComment)
-        console.log(this.props)
+        // console.log(this.state.loadedComment)
+        // console.log(this.props)
         let cm = {
             name: this.state.name,
             email: this.state.email,
             body: this.state.body
         }
-        this.props.location.onEditMessage(cm, postId, commentId)
+        if(this.props.location.onEditMessage) {
+            this.props.location.onEditMessage(cm, postId, commentId)
+        }
         let url = '/posts/' + this.props.match.params.postId + '/comments'
         this.props.history.push({pathname: url})
     }
