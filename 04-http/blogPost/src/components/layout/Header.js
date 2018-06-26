@@ -8,9 +8,7 @@ import { Link} from 'react-router-dom';
 export default props =>
     <AppBar position="static">
         <Toolbar>
-            <Typography variant="headline" color="inherit" >
-                REACT.JS APPLICATION
-            </Typography>
+
             <Button component={Link} to="/posts" color="inherit">Posts</Button>
             {/*<Button component={Link} to="/new-post" color="inherit">New Post</Button>*/}
         </Toolbar>

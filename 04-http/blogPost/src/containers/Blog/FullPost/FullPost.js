@@ -5,7 +5,7 @@ import {Route, Link, Switch} from 'react-router-dom';
 import './FullPost.css';
 import Messages from '../Messages/Messages'
 // import FullMessage from '../FullMessage/FullMessage'
-import Button from 'material-ui/Button';
+// import Button from 'material-ui/Button';
 import EditMessage from '../EditMessage/EditMessage'
 
 class FullPost extends Component {

@@ -1,13 +1,13 @@
 import React from 'react';
 
 import './Message.css';
-import Button from 'material-ui/Button';
-import Delete from 'material-ui/Icon';
+// import Button from 'material-ui/Button';
+// import Delete from 'material-ui/Icon';
 import {
     blueGrey800,
     red600,
 } from 'material-ui/styles';
-import Checkbox from 'material-ui/Checkbox'
+// import Checkbox from 'material-ui/Checkbox'
 import DeleteIcon from 'material-ui-icons/Delete';
 import IconButton from 'material-ui/IconButton';
 import Divider from 'material-ui/Divider';

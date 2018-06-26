@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Route, Switch} from 'react-router-dom';
+// import {Route, Switch} from 'react-router-dom';
 
 // import axios from 'axios';
 import axios from '../../../axios';
@@ -84,7 +84,6 @@ class Messages extends Component {
         // this.setState({comments: existingEntries})
 
 
-
     }
 
     newMessage(comment) {
@@ -132,7 +131,7 @@ class Messages extends Component {
                 this.setState({comments: comments})
             }
 
-                }
+    }
 
     render() {
         // console.log(this.props.match.params.postId)
@@ -170,14 +169,18 @@ class Messages extends Component {
         return (
             <div>
                 <div>
-                <Search onSearch={this.searchMessages}/>
-                <Button color="primary" onClick={() => this.sortMessages()}>
-                    Order messages by ID (desc)
-                </Button>
+                    <Search onSearch={this.searchMessages}/>
+                    <Button color="primary" onClick={() => this.sortMessages()}>
+                        Order messages by ID (desc)
+                    </Button>
                 </div>
-                <List style={{marginLeft: '5%'}} subheader="Messages List for selected Post">
-                    <ul>{ comments }</ul>
-                </List>
+                <br/>
+                <div>
+                    <List style={{marginLeft: '5%'}} subheader="Messages List for selected Post">
+                        <ul>{comments}</ul>
+                    </List>
+                </div>
+
                 <NewMessage onNewMessage={this.newMessage}/>
             </div>
         )
