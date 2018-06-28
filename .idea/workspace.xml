@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73a7b0c8-97b5-4586-9886-67cb9114d957" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05-online-web-store/public/img/products/1-pear.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05-online-web-store/public/img/products/2-apple.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05-online-web-store/public/img/products/3-cherry.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/05-online-web-store/package-lock.json" afterPath="$PROJECT_DIR$/05-online-web-store/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/05-online-web-store/package.json" afterPath="$PROJECT_DIR$/05-online-web-store/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/05-online-web-store/src/components/Home.js" afterPath="$PROJECT_DIR$/05-online-web-store/src/components/Home.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/05-online-web-store/src/components/Product.js" afterPath="$PROJECT_DIR$/05-online-web-store/src/components/Product.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/05-online-web-store/src/containers/ProdustList.js" afterPath="$PROJECT_DIR$/05-online-web-store/src/containers/ProdustList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/05-online-web-store/src/data/products.json" afterPath="$PROJECT_DIR$/05-online-web-store/src/data/products.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/05-online-web-store/src/index.js" afterPath="$PROJECT_DIR$/05-online-web-store/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/05-online-web-store/src/store/actions/actionTypes.js" afterPath="$PROJECT_DIR$/05-online-web-store/src/store/actions/actionTypes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/05-online-web-store/src/store/actions/cart.js" afterPath="$PROJECT_DIR$/05-online-web-store/src/store/actions/cart.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/05-online-web-store/src/store/actions/index.js" afterPath="$PROJECT_DIR$/05-online-web-store/src/store/actions/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/05-online-web-store/src/store/reducers/cart.js" afterPath="$PROJECT_DIR$/05-online-web-store/src/store/reducers/cart.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,53 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ProdustList.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05-online-web-store/src/containers/ProdustList.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-                <marker date="1530196844341" expanded="true" signature="210:761" ph="{...}" />
-                <marker date="1530196844341" expanded="true" signature="225:759" ph="{...}" />
-                <marker date="1530196844341" expanded="true" signature="285:635" ph="{...}" />
-                <marker date="1530196844341" expanded="true" signature="610:611" ph="&lt;Product/&gt;" />
-                <marker date="1530196844341" expanded="true" signature="667:743" ph="&lt;div/&gt;" />
-                <marker date="1530196844341" expanded="true" signature="809:841" ph="{&quot;cart&quot;: state.cart...}" />
-                <marker date="1530196844341" expanded="true" signature="885:1061" ph="{...}" />
-                <marker date="1530196844341" expanded="true" signature="898:1059" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Counter.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03-redux/counter/src/containers/Counter/Counter.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-684">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Product.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/05-online-web-store/src/components/Product.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="21" column="59" lean-forward="true" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="products.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05-online-web-store/src/data/products.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+            <state relative-caret-position="-63">
+              <caret line="9" column="61" lean-forward="true" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -76,9 +46,11 @@
       <file leaf-file-name="cart.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/05-online-web-store/src/store/actions/cart.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="189">
+              <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,45 +58,8 @@
       <file leaf-file-name="cart.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/05-online-web-store/src/store/reducers/cart.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-              <folding>
-                <marker date="1530196844343" expanded="true" signature="171:1341" ph="{...}" />
-                <marker date="1530196844343" expanded="true" signature="1209:1290" ph="{&quot;products&quot;: products...}" />
-                <marker date="1530196844343" expanded="true" signature="1209:1339" ph="{...}" />
-                <marker date="1530196844343" expanded="true" signature="1307:1333" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Home.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/05-online-web-store/src/components/Home.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="actionTypes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05-online-web-store/src/store/actions/actionTypes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05-online-web-store/src/store/actions/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="210">
+              <caret line="31" column="23" lean-forward="false" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -133,11 +68,72 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/05-online-web-store/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-75">
-              <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+            <state relative-caret-position="63">
+              <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05-online-web-store/src/store/actions/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="actionTypes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05-online-web-store/src/store/actions/actionTypes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="products.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/05-online-web-store/src/data/products.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Home.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05-online-web-store/src/components/Home.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
-                <element signature="e#210#247#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Router.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05-online-web-store/src/components/Router.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Navigation.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05-online-web-store/src/components/Navigation.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -155,11 +151,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>this.props.hist</find>
-      <find>&lt;route</find>
-      <find>&lt;po</find>
-      <find>br/</find>
-      <find>on</find>
       <find>redire</find>
       <find>redirect</find>
       <find>br</find>
@@ -169,7 +160,6 @@
       <find>x</find>
       <find>x_d</find>
       <find>compose</find>
-      <find>createStore</find>
       <find>thu</find>
       <find>import {BrowserRouter} from 'react-router-dom';</find>
       <find>applyMiddleware</find>
@@ -177,13 +167,19 @@
       <find>post</find>
       <find>pay</find>
       <find>paylo</find>
-      <find>onAddToCart</find>
       <find>payload</find>
       <find>productName</find>
       <find>index</find>
       <find>:</find>
-      <find>product.n</find>
       <find>ts.json</find>
+      <find>product.n</find>
+      <find>redux-thunk</find>
+      <find>onAddToCart</find>
+      <find>thunk</find>
+      <find>cart</find>
+      <find>getProductsList</find>
+      <find>props.product.id</find>
+      <find>createStore</find>
       <find>addedProductId</find>
     </findStrings>
     <replaceStrings>
@@ -205,6 +201,7 @@
       <replace>body</replace>
       <replace>defaultValue</replace>
       <replace>i</replace>
+      <replace>currentProductId</replace>
       <replace>action.payload.id</replace>
     </replaceStrings>
     <dirStrings>
@@ -271,23 +268,23 @@
         <option value="$PROJECT_DIR$/04-http/blogPost/src/components/Navigation/NavigationItems/NavigationItems.js" />
         <option value="$PROJECT_DIR$/02-burger-builder/src/components/Router.js" />
         <option value="$PROJECT_DIR$/05-online-web-store/src/components/Cart.js" />
-        <option value="$PROJECT_DIR$/05-online-web-store/src/components/Router.js" />
-        <option value="$PROJECT_DIR$/05-online-web-store/src/components/Navigation.js" />
         <option value="$PROJECT_DIR$/02-burger-builder/src/index.js" />
-        <option value="$PROJECT_DIR$/05-online-web-store/src/data/products.json" />
-        <option value="$PROJECT_DIR$/05-online-web-store/src/components/Home.js" />
         <option value="$PROJECT_DIR$/05-online-web-store/src/App.css" />
         <option value="$PROJECT_DIR$/05-online-web-store/src/App.js" />
         <option value="$PROJECT_DIR$/05-online-web-store/src/index.css" />
         <option value="$PROJECT_DIR$/05-online-web-store/src/store/actions/counter.js" />
         <option value="$PROJECT_DIR$/05-online-web-store/src/store/actions/actions.js" />
-        <option value="$PROJECT_DIR$/05-online-web-store/src/store/actions/index.js" />
-        <option value="$PROJECT_DIR$/05-online-web-store/src/store/actions/actionTypes.js" />
         <option value="$PROJECT_DIR$/05-online-web-store/src/index.js" />
-        <option value="$PROJECT_DIR$/05-online-web-store/src/store/actions/cart.js" />
-        <option value="$PROJECT_DIR$/05-online-web-store/src/components/Product.js" />
+        <option value="$PROJECT_DIR$/05-online-web-store/src/store/actions/index.js" />
         <option value="$PROJECT_DIR$/05-online-web-store/src/containers/ProdustList.js" />
+        <option value="$PROJECT_DIR$/05-online-web-store/src/components/Product.js" />
+        <option value="$PROJECT_DIR$/05-online-web-store/src/store/actions/cart.js" />
+        <option value="$PROJECT_DIR$/05-online-web-store/src/store/actions/actionTypes.js" />
+        <option value="$PROJECT_DIR$/05-online-web-store/src/components/Home.js" />
+        <option value="$PROJECT_DIR$/05-online-web-store/src/components/Navigation.js" />
+        <option value="$PROJECT_DIR$/05-online-web-store/src/components/Router.js" />
         <option value="$PROJECT_DIR$/05-online-web-store/src/store/reducers/cart.js" />
+        <option value="$PROJECT_DIR$/05-online-web-store/src/data/products.json" />
       </list>
     </option>
   </component>
@@ -344,28 +341,41 @@
             <path>
               <item name="React-16-Redux-Course" type="b2602c69:ProjectViewProjectNode" />
               <item name="React-16-Redux-Course" type="462c0819:PsiDirectoryNode" />
-              <item name="05-online-web-store" type="462c0819:PsiDirectoryNode" />
+              <item name="02-burger-builder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="React-16-Redux-Course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="React-16-Redux-Course" type="462c0819:PsiDirectoryNode" />
+              <item name="02-burger-builder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="React-16-Redux-Course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="React-16-Redux-Course" type="462c0819:PsiDirectoryNode" />
+              <item name="02-burger-builder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="React-16-Redux-Course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="React-16-Redux-Course" type="462c0819:PsiDirectoryNode" />
+              <item name="02-burger-builder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="React-16-Redux-Course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="React-16-Redux-Course" type="462c0819:PsiDirectoryNode" />
+              <item name="02-burger-builder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="React-16-Redux-Course" type="b2602c69:ProjectViewProjectNode" />
               <item name="React-16-Redux-Course" type="462c0819:PsiDirectoryNode" />
               <item name="05-online-web-store" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React-16-Redux-Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-16-Redux-Course" type="462c0819:PsiDirectoryNode" />
-              <item name="05-online-web-store" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React-16-Redux-Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-16-Redux-Course" type="462c0819:PsiDirectoryNode" />
-              <item name="05-online-web-store" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="products" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="React-16-Redux-Course" type="b2602c69:ProjectViewProjectNode" />
@@ -378,7 +388,7 @@
               <item name="React-16-Redux-Course" type="462c0819:PsiDirectoryNode" />
               <item name="05-online-web-store" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -491,13 +501,6 @@
       <workItem from="1529899277196" duration="11612000" />
       <workItem from="1530092949605" duration="140000" />
       <workItem from="1530104818908" duration="48981000" />
-    </task>
-    <task id="LOCAL-00069" summary="SPA Link">
-      <created>1527319090124</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1527319090124</updated>
     </task>
     <task id="LOCAL-00070" summary="routing releted props">
       <created>1527334493025</created>
@@ -835,11 +838,18 @@
       <option name="project" value="LOCAL" />
       <updated>1530186483179</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="store edit">
+      <created>1530197058898</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1530197058898</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="707489000" />
+    <option name="totallyTimeSpent" value="718452000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -852,16 +862,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1554" height="916" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16358839" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16358839" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298153" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20742637" sideWeight="0.50585175" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849604" sideWeight="0.4934037" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21372032" sideWeight="0.49414825" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21372032" sideWeight="0.49414825" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298153" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3707124" sideWeight="0.49208444" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3707124" sideWeight="0.49208444" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -950,7 +961,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="reducer test" />
     <MESSAGE value="small fixes" />
     <MESSAGE value="mobile menu closed fix" />
     <MESSAGE value="lazy loading" />
@@ -975,7 +985,8 @@
     <MESSAGE value="with payload" />
     <MESSAGE value="quantityById impl in the store" />
     <MESSAGE value="addButton &amp; removeButton work corrected" />
-    <option name="LAST_COMMIT_MESSAGE" value="addButton &amp; removeButton work corrected" />
+    <MESSAGE value="store edit" />
+    <option name="LAST_COMMIT_MESSAGE" value="store edit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -984,7 +995,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa7340.14292/AddTodo.jsx" />
     <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/NewPost/NewPost.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
@@ -1028,6 +1038,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1064,6 +1075,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1344">
           <caret line="65" column="23" lean-forward="false" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1104,6 +1116,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1111,6 +1124,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#49#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1118,16 +1134,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-online-web-store/src/components/Navigation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1145,6 +1151,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1159,6 +1166,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="53" column="10" lean-forward="false" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1166,13 +1174,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="25" column="58" lean-forward="true" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-online-web-store/src/components/Router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -1208,20 +1209,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02-burger-builder/src/store/reducers/order.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-819">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#54#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/02-burger-builder/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1236,6 +1228,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1252,43 +1245,6 @@
     <entry file="file://$PROJECT_DIR$/05-online-web-store/src/store/reducers/result.js" />
     <entry file="file://$PROJECT_DIR$/05-online-web-store/src/store/actions/result.js" />
     <entry file="file://$PROJECT_DIR$/05-online-web-store/src/store/actions/actions.js" />
-    <entry file="file://$PROJECT_DIR$/05-online-web-store/src/store/actions/actionTypes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02-burger-builder/src/store/actions/order.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#45#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-online-web-store/src/store/actions/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-online-web-store/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#210#247#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/03-redux/counter/src/containers/Counter/Counter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-684">
@@ -1299,68 +1255,125 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-online-web-store/src/store/actions/cart.js">
+    <entry file="file://$PROJECT_DIR$/02-burger-builder/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state relative-caret-position="133">
+          <caret line="45" column="16" lean-forward="false" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-online-web-store/src/data/products.json">
+    <entry file="file://$PROJECT_DIR$/02-burger-builder/src/store/actions/order.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        <state relative-caret-position="63">
+          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-burger-builder/src/store/reducers/order.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-online-web-store/src/containers/ProdustList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="38" column="51" lean-forward="false" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-online-web-store/src/store/actions/cart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-online-web-store/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-online-web-store/src/store/actions/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-online-web-store/src/store/actions/actionTypes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-online-web-store/src/components/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-online-web-store/src/components/Navigation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-online-web-store/src/components/Router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-online-web-store/src/store/reducers/cart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="31" column="23" lean-forward="false" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/05-online-web-store/src/components/Product.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="21" column="59" lean-forward="true" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
+        <state relative-caret-position="-63">
+          <caret line="9" column="61" lean-forward="true" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-online-web-store/src/containers/ProdustList.js">
+    <entry file="file://$PROJECT_DIR$/05-online-web-store/src/data/products.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <marker date="1530196844341" expanded="true" signature="210:761" ph="{...}" />
-            <marker date="1530196844341" expanded="true" signature="225:759" ph="{...}" />
-            <marker date="1530196844341" expanded="true" signature="285:635" ph="{...}" />
-            <marker date="1530196844341" expanded="true" signature="610:611" ph="&lt;Product/&gt;" />
-            <marker date="1530196844341" expanded="true" signature="667:743" ph="&lt;div/&gt;" />
-            <marker date="1530196844341" expanded="true" signature="809:841" ph="{&quot;cart&quot;: state.cart...}" />
-            <marker date="1530196844341" expanded="true" signature="885:1061" ph="{...}" />
-            <marker date="1530196844341" expanded="true" signature="898:1059" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-online-web-store/src/store/reducers/cart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding>
-            <marker date="1530196844343" expanded="true" signature="171:1341" ph="{...}" />
-            <marker date="1530196844343" expanded="true" signature="1209:1290" ph="{&quot;products&quot;: products...}" />
-            <marker date="1530196844343" expanded="true" signature="1209:1339" ph="{...}" />
-            <marker date="1530196844343" expanded="true" signature="1307:1333" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-online-web-store/src/components/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -1,4 +1,5 @@
 import * as actionTypes from './actionTypes'
+import data from '../../data/products.json';
 
 export const addProduct = ( product ) => {
     return {
@@ -13,6 +14,27 @@ export const removeProduct = ( product ) => {
         payload: product
     };
 };
+
+export const loadData = () => {
+    return dispatch => {
+        setTimeout(() => {
+            dispatch(getProductsList())
+        }, 2000);
+    }
+}
+
+export const getProductsList = () => {
+    return {
+        type: actionTypes.GET_ALL,
+        payload: data.products
+    }
+}
+
+
+
+
+
+
 
 // export const storeResult = (result) => {
 //     return dispatch => {

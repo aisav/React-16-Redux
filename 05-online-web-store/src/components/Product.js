@@ -4,9 +4,10 @@ import React from 'react';
 const product = (props) => {
 
     let removeButton, addButton
-    if (props.cart.quantityById[props.product.id]) {
+    let currentProductId = props.product.id
+    if (props.cart.quantityById[currentProductId]) {
         removeButton = <button onClick={props.removed}>Remove from cart</button>
-        addButton = <button onClick={props.added}>Add to cart ({props.cart.quantityById[props.product.id]})</button>
+        addButton = <button onClick={props.added}>Add to cart ({props.cart.quantityById[currentProductId]})</button>
     }
     else {
         addButton = <button onClick={props.added}>Add to cart (0)</button>

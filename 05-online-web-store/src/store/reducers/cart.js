@@ -5,43 +5,44 @@ const initialState = {
     quantityById: {}
 };
 
+
 const reducer = (state = initialState, action) => {
-    let index = state.products.indexOf(action.payload) //find current product in our pr. array
     let helpObj = {}
     let count
-    let products = state.products
 
     switch (action.type) {
+        /////////////////////////////////////////////////////////////////////////////////////////// ADD ///////////////
         case actionTypes.ADD:
-            if (index === -1) {
-                count = 1
-                products.push(action.payload)
-            }
-            else {
+            if (state.quantityById[action.payload.id] !== undefined)
                 count = state.quantityById[action.payload.id] + 1
-            }
+            else count = 1
+
             helpObj[action.payload.id] = count
+
             return {
                 ...state,
-                products,
                 quantityById: {...state.quantityById, ...helpObj}
             }
-
-        case
-        actionTypes.REMOVE
-        :
-            if (index >= 0) {
+        ////////////////////////////////////////////////////////////////////////////////////////// REMOVE /////////////
+        case actionTypes.REMOVE:
+            if (state.quantityById[action.payload.id] > 0) {
                 count = state.quantityById[action.payload.id] - 1
-                helpObj[action.payload.id] = count
             }
-            if(count===0) {
-                products = products.filter((item, id) => id !== index)
+            else{
+                count = 0
             }
+
+            helpObj[action.payload.id] = count
 
             return {
                 ...state,
-                products,
                 quantityById: {...state.quantityById, ...helpObj}
+            }
+        ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        case actionTypes.GET_ALL:
+            return {
+                ...state,
+                products: action.payload
             }
         default:
             return state;

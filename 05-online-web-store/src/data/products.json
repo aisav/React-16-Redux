@@ -2,9 +2,21 @@
   "products": [
     {
       "id": 1,
-      "name": "Meat",
-      "image": "1-meat.jpg",
-      "price": 9.99
+      "name": "Pear",
+      "image": "1-pear.jpg",
+      "price": 1.99
+    },
+    {
+      "id": 2,
+      "name": "Apple",
+      "image": "2-apple.jpg",
+      "price": 2.99
+    },
+    {
+      "id": 3,
+      "name": "Cherry",
+      "image": "3-cherry.jpg",
+      "price": 3.99
     }
   ]
 }

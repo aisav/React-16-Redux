@@ -1,4 +1,5 @@
 export {
     addProduct,
-    removeProduct
+    removeProduct,
+    loadData
 } from './cart';

@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {  BrowserRouter  } from 'react-router-dom';
-import {createStore, compose, combineReducers} from 'redux';
-// import thunk from 'redux-thunk';
+import {createStore, compose, combineReducers, applyMiddleware} from 'redux';
+import thunk from 'redux-thunk';
 import {Provider} from 'react-redux';
 
 import cartReducer from './store/reducers/cart';
@@ -20,7 +20,7 @@ const reducer = combineReducers({
 })
 
 const store = createStore(reducer, composeEnhancers(
-    // applyMiddleware(thunk)
+    applyMiddleware(thunk)
 ));
 
 const app = (
