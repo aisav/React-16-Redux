@@ -10,11 +10,10 @@ class ProdustList extends Component {
             return (
                 //    <Link to={'/posts'+post.id}>
                     <Product key={product.id}
-                             name={product.name}
-                             price={product.price}
-                             image={product.image}
+                             product={product}
                              added={() => this.props.onAddToCart(product)}
-                             removed={() => this.props.onRemoveFromCart(product)}/>
+                             removed={() => this.props.onRemoveFromCart(product)}
+                             cart={this.props.cart}/>
                 //    </Link>
             )
         });
