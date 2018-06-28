@@ -1,16 +1,16 @@
 import * as actionTypes from './actionTypes'
 
-export const addProduct = ( name ) => {
+export const addProduct = ( product ) => {
     return {
         type: actionTypes.ADD,
-        productName: name
+         payload: product
     };
 };
 
-export const removeProduct = ( name ) => {
+export const removeProduct = ( product ) => {
     return {
         type: actionTypes.REMOVE,
-        productName: name
+        payload: product
     };
 };
 

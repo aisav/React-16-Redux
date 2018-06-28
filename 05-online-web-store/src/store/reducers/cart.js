@@ -9,11 +9,11 @@ const reducer = (state = initialState, action) => {
         case actionTypes.ADD:
             return {
                 ...state,
-                products: state.products.concat(action.productName)
+                products: state.products.concat(action.payload)
             }
 
         case actionTypes.REMOVE:
-            let index = state.products.indexOf(action.productName)
+            let index = state.products.indexOf(action.payload)
             return {
                 ...state,
                 products: state.products.filter((item, id) => id !== index)

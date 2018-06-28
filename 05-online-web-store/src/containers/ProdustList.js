@@ -13,8 +13,8 @@ class ProdustList extends Component {
                              name={product.name}
                              price={product.price}
                              image={product.image}
-                             added={() => this.props.onAddToCart(product.name)}
-                             removed={() => this.props.onRemoveFromCart(product.name)}/>
+                             added={() => this.props.onAddToCart(product)}
+                             removed={() => this.props.onRemoveFromCart(product)}/>
                 //    </Link>
             )
         });
@@ -34,8 +34,8 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
     return {
-        onAddToCart: (productName) => dispatch(actions.addProduct(productName)),
-        onRemoveFromCart: (productName) => dispatch(actions.removeProduct(productName)),
+        onAddToCart: (product) => dispatch(actions.addProduct(product)),
+        onRemoveFromCart: (product) => dispatch(actions.removeProduct(product)),
     }
 }
 
