@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="73a7b0c8-97b5-4586-9886-67cb9114d957" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/05-online-web-store/src/containers/ProdustList.js" afterPath="$PROJECT_DIR$/05-online-web-store/src/containers/ProdustList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/05-online-web-store/src/store/reducers/cart.js" afterPath="$PROJECT_DIR$/05-online-web-store/src/store/reducers/cart.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,111 +21,123 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EditMessage.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/EditMessage/EditMessage.js">
+      <file leaf-file-name="ProdustList.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05-online-web-store/src/containers/ProdustList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="66" column="39" lean-forward="false" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="39" />
-              <folding>
-                <element signature="e#202#242#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewMessage.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/NewMessage/NewMessage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="252">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
-                <element signature="e#548#1573#0" expanded="false" />
+                <marker date="1530196844341" expanded="true" signature="210:761" ph="{...}" />
+                <marker date="1530196844341" expanded="true" signature="225:759" ph="{...}" />
+                <marker date="1530196844341" expanded="true" signature="285:635" ph="{...}" />
+                <marker date="1530196844341" expanded="true" signature="610:611" ph="&lt;Product/&gt;" />
+                <marker date="1530196844341" expanded="true" signature="667:743" ph="&lt;div/&gt;" />
+                <marker date="1530196844341" expanded="true" signature="809:841" ph="{&quot;cart&quot;: state.cart...}" />
+                <marker date="1530196844341" expanded="true" signature="885:1061" ph="{...}" />
+                <marker date="1530196844341" expanded="true" signature="898:1059" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Message.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/components/Message/Message.js">
+      <file leaf-file-name="Counter.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03-redux/counter/src/containers/Counter/Counter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+            <state relative-caret-position="-684">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
-                <element signature="e#138#204#0" expanded="true" />
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FullPost.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/FullPost/FullPost.js">
+      <file leaf-file-name="Product.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05-online-web-store/src/components/Product.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+            <state relative-caret-position="252">
+              <caret line="21" column="59" lean-forward="true" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Posts.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Posts/Posts.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Messages.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Messages/Messages.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Search.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Search/Search.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Blog.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Blog.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/App.js">
+      <file leaf-file-name="products.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05-online-web-store/src/data/products.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+              <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Post.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/components/Post/Post.js">
+      <file leaf-file-name="cart.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05-online-web-store/src/store/actions/cart.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="252">
+              <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cart.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05-online-web-store/src/store/reducers/cart.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding>
-                <element signature="e#52#94#0" expanded="true" />
+                <marker date="1530196844343" expanded="true" signature="171:1341" ph="{...}" />
+                <marker date="1530196844343" expanded="true" signature="1209:1290" ph="{&quot;products&quot;: products...}" />
+                <marker date="1530196844343" expanded="true" signature="1209:1339" ph="{...}" />
+                <marker date="1530196844343" expanded="true" signature="1307:1333" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Home.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/05-online-web-store/src/components/Home.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="actionTypes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05-online-web-store/src/store/actions/actionTypes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05-online-web-store/src/store/actions/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05-online-web-store/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-75">
+              <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#210#247#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -141,27 +155,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>setst</find>
-      <find>value</find>
-      <find>loadedComment</find>
-      <find>colo</find>
-      <find>listStyles</find>
-      <find>rightIconButton</find>
-      <find>tooltipposition</find>
-      <find>ax</find>
-      <find>handleChange</find>
-      <find>classes</find>
-      <find>&lt;addm</find>
-      <find>nent =</find>
-      <find>key</find>
-      <find>onNewMessage</find>
-      <find>validator</find>
-      <find>s.st</find>
-      <find>err</find>
-      <find>onEditMessage</find>
-      <find>hist</find>
-      <find>his.props.hist</find>
-      <find>&lt;Rout</find>
       <find>this.props.hist</find>
       <find>&lt;route</find>
       <find>&lt;po</find>
@@ -170,7 +163,28 @@
       <find>redire</find>
       <find>redirect</find>
       <find>br</find>
+      <find>react-burger-builder-a3c7d.firebaseapp.com</find>
       <find>.on</find>
+      <find>browser</find>
+      <find>x</find>
+      <find>x_d</find>
+      <find>compose</find>
+      <find>createStore</find>
+      <find>thu</find>
+      <find>import {BrowserRouter} from 'react-router-dom';</find>
+      <find>applyMiddleware</find>
+      <find>disp</find>
+      <find>post</find>
+      <find>pay</find>
+      <find>paylo</find>
+      <find>onAddToCart</find>
+      <find>payload</find>
+      <find>productName</find>
+      <find>index</find>
+      <find>:</find>
+      <find>product.n</find>
+      <find>ts.json</find>
+      <find>addedProductId</find>
     </findStrings>
     <replaceStrings>
       <replace>this.props</replace>
@@ -190,6 +204,8 @@
       <replace>EditMessage</replace>
       <replace>body</replace>
       <replace>defaultValue</replace>
+      <replace>i</replace>
+      <replace>action.payload.id</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Users\art\WebstormProjects\react-16-complete-guide\02-burger-builder</dir>
@@ -201,14 +217,18 @@
       <dir>C:\Users\art\WebstormProjects\react-16-complete-guide</dir>
       <dir>C:\Users\art\WebstormProjects\React-16-Redux-Course\02-burger-builder\node_modules</dir>
       <dir>C:\Users\art\WebstormProjects\React-16-Redux-Course\02-burger-builder\src\containers\Checkout</dir>
-      <dir>C:\Users\art\WebstormProjects\React-16-Redux-Course\02-burger-builder</dir>
-      <dir>C:\Users\art\WebstormProjects\React-16-Redux-Course\02-burger-builder\src</dir>
       <dir>C:\Users\art\WebstormProjects\React-16-Redux-Course\04-http\blogPost\src\containers</dir>
       <dir>C:\Users\art\WebstormProjects\React-16-Redux-Course\04-http</dir>
       <dir>C:\Users\art\WebstormProjects\React-16-Redux-Course\04-http\blogPost</dir>
-      <dir>C:\Users\art\WebstormProjects\React-16-Redux-Course</dir>
       <dir>C:\Users\art\WebstormProjects\React-16-Redux-Course\03-redux</dir>
+      <dir>C:\Users\art\WebstormProjects\React-16-Redux-Course\02-burger-builder</dir>
       <dir>C:\Users\art\WebstormProjects\React-16-Redux-Course\04-http\blogPost\src</dir>
+      <dir>C:\Users\art\WebstormProjects\React-16-Redux-Course\03-redux\counter\src</dir>
+      <dir>C:\Users\art\WebstormProjects\React-16-Redux-Course\02-burger-builder\src</dir>
+      <dir>C:\Users\art\WebstormProjects\React-16-Redux-Course\03-redux\counter\src\store</dir>
+      <dir>C:\Users\art\WebstormProjects\React-16-Redux-Course\02-burger-builder\src\store</dir>
+      <dir>C:\Users\art\WebstormProjects\React-16-Redux-Course</dir>
+      <dir>C:\Users\art\WebstormProjects\React-16-Redux-Course\05-online-web-store</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -217,26 +237,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/02-burger-builder/src/components/UI/Button/Button.js" />
-        <option value="$PROJECT_DIR$/02-burger-builder/src/components/Order/Order.css" />
-        <option value="$PROJECT_DIR$/02-burger-builder/src/components/Order/CheckoutSummary/CheckoutSummary.js" />
-        <option value="$PROJECT_DIR$/02-burger-builder/src/index.js" />
-        <option value="$PROJECT_DIR$/02-burger-builder/src/components/Burger/Burger.js" />
-        <option value="$PROJECT_DIR$/02-burger-builder/src/containers/Checkout/ContactData/ContactData.js" />
-        <option value="$PROJECT_DIR$/02-burger-builder/src/store/actions/actionTypes.js" />
-        <option value="$PROJECT_DIR$/02-burger-builder/src/store/actions/index.js" />
-        <option value="$PROJECT_DIR$/02-burger-builder/src/store/reducers/order.js" />
-        <option value="$PROJECT_DIR$/02-burger-builder/src/store/actions/burgerBuilder.js" />
-        <option value="$PROJECT_DIR$/02-burger-builder/src/store/reducers/burgerBuilder.js" />
-        <option value="$PROJECT_DIR$/02-burger-builder/src/store/actions/order.js" />
-        <option value="$PROJECT_DIR$/02-burger-builder/src/containers/Orders/Orders.js" />
-        <option value="$PROJECT_DIR$/02-burger-builder/src/components/Order/CheckoutSummary/CheckoutSummary.css" />
-        <option value="$PROJECT_DIR$/02-burger-builder/src/components/Navigation/SideDrawer/DrawerToggle/DrawerToggle.js" />
-        <option value="$PROJECT_DIR$/02-burger-builder/src/components/Logo/Logo.css" />
-        <option value="$PROJECT_DIR$/02-burger-builder/src/components/UI/Backdrop/Backdrop.css" />
-        <option value="$PROJECT_DIR$/02-burger-builder/src/components/Layout/Layout.js" />
-        <option value="$PROJECT_DIR$/02-burger-builder/package.json" />
-        <option value="$PROJECT_DIR$/02-burger-builder/src/components/Navigation/NavigationItems/NavigationItems.test.js" />
         <option value="$PROJECT_DIR$/02-burger-builder/src/containers/BurgerBuilder/BurgerBuilder.js" />
         <option value="$PROJECT_DIR$/02-burger-builder/src/containers/BurgerBuilder/BurgerBuilder.test.js" />
         <option value="$PROJECT_DIR$/02-burger-builder/src/store/reducers/burgerBuilder.test.js" />
@@ -259,7 +259,6 @@
         <option value="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Blog.js" />
         <option value="$PROJECT_DIR$/04-http/blogPost/src/components/Message/Search/Search.js" />
         <option value="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Search/Search.js" />
-        <option value="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/NewMessage/NewMessage.js" />
         <option value="$PROJECT_DIR$/04-http/blogPost/src/components/Post/Post.js" />
         <option value="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Posts/Posts.js" />
         <option value="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/NewPost/NewPost.js" />
@@ -268,6 +267,27 @@
         <option value="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/FullPost/FullPost.js" />
         <option value="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Messages/Messages.js" />
         <option value="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/EditMessage/EditMessage.js" />
+        <option value="$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/NewMessage/NewMessage.js" />
+        <option value="$PROJECT_DIR$/04-http/blogPost/src/components/Navigation/NavigationItems/NavigationItems.js" />
+        <option value="$PROJECT_DIR$/02-burger-builder/src/components/Router.js" />
+        <option value="$PROJECT_DIR$/05-online-web-store/src/components/Cart.js" />
+        <option value="$PROJECT_DIR$/05-online-web-store/src/components/Router.js" />
+        <option value="$PROJECT_DIR$/05-online-web-store/src/components/Navigation.js" />
+        <option value="$PROJECT_DIR$/02-burger-builder/src/index.js" />
+        <option value="$PROJECT_DIR$/05-online-web-store/src/data/products.json" />
+        <option value="$PROJECT_DIR$/05-online-web-store/src/components/Home.js" />
+        <option value="$PROJECT_DIR$/05-online-web-store/src/App.css" />
+        <option value="$PROJECT_DIR$/05-online-web-store/src/App.js" />
+        <option value="$PROJECT_DIR$/05-online-web-store/src/index.css" />
+        <option value="$PROJECT_DIR$/05-online-web-store/src/store/actions/counter.js" />
+        <option value="$PROJECT_DIR$/05-online-web-store/src/store/actions/actions.js" />
+        <option value="$PROJECT_DIR$/05-online-web-store/src/store/actions/index.js" />
+        <option value="$PROJECT_DIR$/05-online-web-store/src/store/actions/actionTypes.js" />
+        <option value="$PROJECT_DIR$/05-online-web-store/src/index.js" />
+        <option value="$PROJECT_DIR$/05-online-web-store/src/store/actions/cart.js" />
+        <option value="$PROJECT_DIR$/05-online-web-store/src/components/Product.js" />
+        <option value="$PROJECT_DIR$/05-online-web-store/src/containers/ProdustList.js" />
+        <option value="$PROJECT_DIR$/05-online-web-store/src/store/reducers/cart.js" />
       </list>
     </option>
   </component>
@@ -288,6 +308,7 @@
     <handled-path value="$PROJECT_DIR$/01-06-all-new-concepts/node_modules" />
     <handled-path value="$PROJECT_DIR$/02-burger-builder/node_modules" />
     <handled-path value="$PROJECT_DIR$/04-http/blogPost/node_modules" />
+    <handled-path value="$PROJECT_DIR$/05-online-web-store/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
@@ -323,149 +344,41 @@
             <path>
               <item name="React-16-Redux-Course" type="b2602c69:ProjectViewProjectNode" />
               <item name="React-16-Redux-Course" type="462c0819:PsiDirectoryNode" />
-              <item name="04-http" type="462c0819:PsiDirectoryNode" />
+              <item name="05-online-web-store" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="React-16-Redux-Course" type="b2602c69:ProjectViewProjectNode" />
               <item name="React-16-Redux-Course" type="462c0819:PsiDirectoryNode" />
-              <item name="04-http" type="462c0819:PsiDirectoryNode" />
-              <item name="blogPost" type="462c0819:PsiDirectoryNode" />
+              <item name="05-online-web-store" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="React-16-Redux-Course" type="b2602c69:ProjectViewProjectNode" />
               <item name="React-16-Redux-Course" type="462c0819:PsiDirectoryNode" />
-              <item name="04-http" type="462c0819:PsiDirectoryNode" />
-              <item name="blogPost" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="05-online-web-store" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="React-16-Redux-Course" type="b2602c69:ProjectViewProjectNode" />
               <item name="React-16-Redux-Course" type="462c0819:PsiDirectoryNode" />
-              <item name="04-http" type="462c0819:PsiDirectoryNode" />
-              <item name="blogPost" type="462c0819:PsiDirectoryNode" />
+              <item name="05-online-web-store" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="products" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="React-16-Redux-Course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="React-16-Redux-Course" type="462c0819:PsiDirectoryNode" />
+              <item name="05-online-web-store" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="React-16-Redux-Course" type="b2602c69:ProjectViewProjectNode" />
               <item name="React-16-Redux-Course" type="462c0819:PsiDirectoryNode" />
-              <item name="04-http" type="462c0819:PsiDirectoryNode" />
-              <item name="blogPost" type="462c0819:PsiDirectoryNode" />
+              <item name="05-online-web-store" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React-16-Redux-Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-16-Redux-Course" type="462c0819:PsiDirectoryNode" />
-              <item name="04-http" type="462c0819:PsiDirectoryNode" />
-              <item name="blogPost" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React-16-Redux-Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-16-Redux-Course" type="462c0819:PsiDirectoryNode" />
-              <item name="04-http" type="462c0819:PsiDirectoryNode" />
-              <item name="blogPost" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Message" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React-16-Redux-Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-16-Redux-Course" type="462c0819:PsiDirectoryNode" />
-              <item name="04-http" type="462c0819:PsiDirectoryNode" />
-              <item name="blogPost" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Post" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React-16-Redux-Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-16-Redux-Course" type="462c0819:PsiDirectoryNode" />
-              <item name="04-http" type="462c0819:PsiDirectoryNode" />
-              <item name="blogPost" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React-16-Redux-Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-16-Redux-Course" type="462c0819:PsiDirectoryNode" />
-              <item name="04-http" type="462c0819:PsiDirectoryNode" />
-              <item name="blogPost" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="Blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React-16-Redux-Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-16-Redux-Course" type="462c0819:PsiDirectoryNode" />
-              <item name="04-http" type="462c0819:PsiDirectoryNode" />
-              <item name="blogPost" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="Blog" type="462c0819:PsiDirectoryNode" />
-              <item name="EditMessage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React-16-Redux-Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-16-Redux-Course" type="462c0819:PsiDirectoryNode" />
-              <item name="04-http" type="462c0819:PsiDirectoryNode" />
-              <item name="blogPost" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="Blog" type="462c0819:PsiDirectoryNode" />
-              <item name="FullPost" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React-16-Redux-Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-16-Redux-Course" type="462c0819:PsiDirectoryNode" />
-              <item name="04-http" type="462c0819:PsiDirectoryNode" />
-              <item name="blogPost" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="Blog" type="462c0819:PsiDirectoryNode" />
-              <item name="Messages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React-16-Redux-Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-16-Redux-Course" type="462c0819:PsiDirectoryNode" />
-              <item name="04-http" type="462c0819:PsiDirectoryNode" />
-              <item name="blogPost" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="Blog" type="462c0819:PsiDirectoryNode" />
-              <item name="NewMessage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React-16-Redux-Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-16-Redux-Course" type="462c0819:PsiDirectoryNode" />
-              <item name="04-http" type="462c0819:PsiDirectoryNode" />
-              <item name="blogPost" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="Blog" type="462c0819:PsiDirectoryNode" />
-              <item name="NewPost" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React-16-Redux-Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-16-Redux-Course" type="462c0819:PsiDirectoryNode" />
-              <item name="04-http" type="462c0819:PsiDirectoryNode" />
-              <item name="blogPost" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="Blog" type="462c0819:PsiDirectoryNode" />
-              <item name="Posts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React-16-Redux-Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-16-Redux-Course" type="462c0819:PsiDirectoryNode" />
-              <item name="04-http" type="462c0819:PsiDirectoryNode" />
-              <item name="blogPost" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="Blog" type="462c0819:PsiDirectoryNode" />
-              <item name="Search" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -475,30 +388,30 @@
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../devconnector-old-my" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../redux-burger--02-finished" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="SearchEverywhereHistoryKey" value="cont&#9;null&#9;null&#10;app&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/02-burger-builder/src/App.js&#10;checkout.js&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/02-burger-builder/src/containers/Checkout/Checkout.js&#10;pack&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/02-burger-builder/package.json&#10;sided&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/02-burger-builder/src/components/Navigation/SideDrawer/SideDrawer.js&#10;logo.j&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/02-burger-builder/src/components/Logo/Logo.js&#10;bu&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/02-burger-builder/src/containers/BurgerBuilder/BurgerBuilder.js&#10;nav&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/02-burger-builder/src/components/Navigation/NavigationItems/NavigationItems.js&#10;Logo.&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/02-burger-builder/src/components/Logo/Logo.js&#10;toolb&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/02-burger-builder/src/components/Navigation/Toolbar/Toolbar.js&#10;logo.c&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/02-burger-builder/src/components/Logo/Logo.css&#10;backd&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/02-burger-builder/src/components/UI/Backdrop/Backdrop.js&#10;sidedr&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/02-burger-builder/src/components/Navigation/SideDrawer/SideDrawer.js&#10;layou&#9;null&#9;null&#10;che&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/02-burger-builder/src/containers/Checkout/Checkout.js&#10;withErrorHandler&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/02-burger-builder/src/hoc/withErrorHandler/withErrorHandler.js&#10;axios-&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/02-burger-builder/src/axios-orders.js&#10;contact&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/02-burger-builder/src/containers/Checkout/ContactData/ContactData.js&#10;act&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/07-pokedex/src/actions/actionTypes.js&#10;ordersummary&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/02-burger-builder/src/components/Burger/OrderSummary/OrderSummary.js&#10;CheckoutSummary&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/02-burger-builder/src/components/Order/CheckoutSummary/CheckoutSummary.js&#10;order&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/02-burger-builder/src/components/Burger/OrderSummary/OrderSummary.js&#10;modal.j&#9;FILE&#9;file://C:/Users/art/AppData/Local/Temp/Rar$DIa6100.2939/Modal.js&#10;ax&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/02-burger-builder/src/axios-orders.js&#10;spi&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/02-burger-builder/src/components/UI/Spinner/Spinner.js&#10;full&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/04-http/blogPost/src/containers/Blog/FullPost/FullPost.js&#10;newpo&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/04-http/blogPost/src/components/NewPost/NewPost.js&#10;redux&#9;FILE&#9;file://C:/Users/art/WebstormProjects/react-16-complete-guide/03-redux/counter/redux-basics.js&#10;index.js&#9;FILE&#9;file://C:/Users/art/WebstormProjects/react-16-complete-guide/07-pokedex/src/components/CardList/index.js&#10;.html&#9;FILE&#9;file://C:/Users/art/WebstormProjects/react-16-complete-guide/01-06-all-new-concepts/public/index.html" />
+    <property name="SearchEverywhereHistoryKey" value="Rout&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/02-burger-builder/src/components/Router.js&#10;firebase&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/02-burger-builder/firebase.json&#10;cont&#9;null&#9;null&#10;app&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/02-burger-builder/src/App.js&#10;checkout.js&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/02-burger-builder/src/containers/Checkout/Checkout.js&#10;pack&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/02-burger-builder/package.json&#10;sided&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/02-burger-builder/src/components/Navigation/SideDrawer/SideDrawer.js&#10;logo.j&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/02-burger-builder/src/components/Logo/Logo.js&#10;bu&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/02-burger-builder/src/containers/BurgerBuilder/BurgerBuilder.js&#10;nav&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/02-burger-builder/src/components/Navigation/NavigationItems/NavigationItems.js&#10;Logo.&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/02-burger-builder/src/components/Logo/Logo.js&#10;toolb&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/02-burger-builder/src/components/Navigation/Toolbar/Toolbar.js&#10;logo.c&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/02-burger-builder/src/components/Logo/Logo.css&#10;backd&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/02-burger-builder/src/components/UI/Backdrop/Backdrop.js&#10;sidedr&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/02-burger-builder/src/components/Navigation/SideDrawer/SideDrawer.js&#10;layou&#9;null&#9;null&#10;che&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/02-burger-builder/src/containers/Checkout/Checkout.js&#10;withErrorHandler&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/02-burger-builder/src/hoc/withErrorHandler/withErrorHandler.js&#10;axios-&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/02-burger-builder/src/axios-orders.js&#10;contact&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/02-burger-builder/src/containers/Checkout/ContactData/ContactData.js&#10;act&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/07-pokedex/src/actions/actionTypes.js&#10;ordersummary&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/02-burger-builder/src/components/Burger/OrderSummary/OrderSummary.js&#10;CheckoutSummary&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/02-burger-builder/src/components/Order/CheckoutSummary/CheckoutSummary.js&#10;order&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/02-burger-builder/src/components/Burger/OrderSummary/OrderSummary.js&#10;modal.j&#9;FILE&#9;file://C:/Users/art/AppData/Local/Temp/Rar$DIa6100.2939/Modal.js&#10;ax&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/02-burger-builder/src/axios-orders.js&#10;spi&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/02-burger-builder/src/components/UI/Spinner/Spinner.js&#10;full&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/04-http/blogPost/src/containers/Blog/FullPost/FullPost.js&#10;newpo&#9;FILE&#9;file://C:/Users/art/WebstormProjects/React-16-Redux-Course/04-http/blogPost/src/components/NewPost/NewPost.js&#10;redux&#9;FILE&#9;file://C:/Users/art/WebstormProjects/react-16-complete-guide/03-redux/counter/redux-basics.js&#10;index.js&#9;FILE&#9;file://C:/Users/art/WebstormProjects/react-16-complete-guide/07-pokedex/src/components/CardList/index.js&#10;.html&#9;FILE&#9;file://C:/Users/art/WebstormProjects/react-16-complete-guide/01-06-all-new-concepts/public/index.html" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\art\WebstormProjects\React-16-Redux-Course\04-http\blogPost\src\containers\Blog" />
-      <recent name="C:\Users\art\WebstormProjects\React-16-Redux-Course\04-http\blogPost\src\containers" />
+      <recent name="C:\Users\art\WebstormProjects\React-16-Redux-Course\05-online-web-store\public\img\products" />
+      <recent name="C:\Users\art\WebstormProjects\React-16-Redux-Course\05-online-web-store\src\components" />
+      <recent name="C:\Users\art\WebstormProjects\React-16-Redux-Course\05-online-web-store\src\containers" />
+      <recent name="C:\Users\art\WebstormProjects\React-16-Redux-Course\05-online-web-store\src" />
       <recent name="C:\Users\art\WebstormProjects\React-16-Redux-Course\04-http\blogPost\src\components" />
-      <recent name="C:\Users\art\WebstormProjects\React-16-Redux-Course\02-burger-builder\src\hoc" />
-      <recent name="C:\Users\art\WebstormProjects\React-16-Redux-Course\02-burger-builder\src\store\reducers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\art\WebstormProjects\React-16-Redux-Course\05-online-web-store\src\components" />
       <recent name="C:\Users\art\WebstormProjects\React-16-Redux-Course\04-http\blogPost\src\containers\Blog" />
       <recent name="C:\Users\art\WebstormProjects\React-16-Redux-Course\04-http\blogPost\src\containers\Blog\Posts" />
       <recent name="C:\Users\art\WebstormProjects\React-16-Redux-Course\02-burger-builder\src\hoc\asyncComponent" />
       <recent name="C:\Users\art\WebstormProjects\React-16-Redux-Course\02-burger-builder\src\store\reducers" />
-      <recent name="C:\Users\art\WebstormProjects\React-16-Redux-Course\02-burger-builder\src\store\actions" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -576,48 +489,8 @@
       <workItem from="1529729949360" duration="49725000" />
       <workItem from="1529815606774" duration="32105000" />
       <workItem from="1529899277196" duration="11612000" />
-    </task>
-    <task id="LOCAL-00063" summary="fetching single post">
-      <created>1527250478360</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1527250478365</updated>
-    </task>
-    <task id="LOCAL-00064" summary="post request">
-      <created>1527252513570</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1527252513570</updated>
-    </task>
-    <task id="LOCAL-00065" summary="delete request">
-      <created>1527253884099</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1527253884099</updated>
-    </task>
-    <task id="LOCAL-00066" summary="interseptors axios">
-      <created>1527255000723</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1527255000723</updated>
-    </task>
-    <task id="LOCAL-00067" summary="axios config &amp; instances">
-      <created>1527269052821</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1527269052821</updated>
-    </task>
-    <task id="LOCAL-00068" summary="routing">
-      <created>1527312594042</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1527312594042</updated>
+      <workItem from="1530092949605" duration="140000" />
+      <workItem from="1530104818908" duration="48981000" />
     </task>
     <task id="LOCAL-00069" summary="SPA Link">
       <created>1527319090124</created>
@@ -920,11 +793,53 @@
       <option name="project" value="LOCAL" />
       <updated>1530005686143</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="deploying">
+      <created>1530006045660</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1530006045660</updated>
+    </task>
+    <task id="LOCAL-00113" summary="online web store init">
+      <created>1530115279907</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1530115279908</updated>
+    </task>
+    <task id="LOCAL-00114" summary="connected redux">
+      <created>1530169378045</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1530169378045</updated>
+    </task>
+    <task id="LOCAL-00115" summary="with payload">
+      <created>1530170543635</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1530170543636</updated>
+    </task>
+    <task id="LOCAL-00116" summary="quantityById impl in the store">
+      <created>1530183556436</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1530183556436</updated>
+    </task>
+    <task id="LOCAL-00117" summary="addButton &amp; removeButton work corrected">
+      <created>1530186483179</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1530186483179</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="651686000" />
+    <option name="totallyTimeSpent" value="707489000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -943,14 +858,15 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20742637" sideWeight="0.50585175" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849604" sideWeight="0.4934037" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21372032" sideWeight="0.49414825" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21372032" sideWeight="0.49414825" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298153" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3707124" sideWeight="0.49208444" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3707124" sideWeight="0.49208444" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298153" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20742637" sideWeight="0.50585175" order="7" side_tool="true" content_ui="tabs" />
@@ -963,6 +879,7 @@
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16358839" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849604" sideWeight="0.4934037" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1033,12 +950,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="willMount later call fix" />
-    <MESSAGE value="orsers reducer updated" />
-    <MESSAGE value="orders functionality and page" />
-    <MESSAGE value="mobile side" />
-    <MESSAGE value="first test for NavigationItems cmpnnt" />
-    <MESSAGE value="testing container" />
     <MESSAGE value="reducer test" />
     <MESSAGE value="small fixes" />
     <MESSAGE value="mobile menu closed fix" />
@@ -1058,7 +969,13 @@
     <MESSAGE value="search" />
     <MESSAGE value="search cancel fix" />
     <MESSAGE value="ui" />
-    <option name="LAST_COMMIT_MESSAGE" value="ui" />
+    <MESSAGE value="deploying" />
+    <MESSAGE value="online web store init" />
+    <MESSAGE value="connected redux" />
+    <MESSAGE value="with payload" />
+    <MESSAGE value="quantityById impl in the store" />
+    <MESSAGE value="addButton &amp; removeButton work corrected" />
+    <option name="LAST_COMMIT_MESSAGE" value="addButton &amp; removeButton work corrected" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1067,179 +984,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/04-http/blogPost/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Blog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-            <element signature="e#143#194#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Posts/Post/Post.js" />
-    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Posts/Posts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-http/blogPost/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa4392.7181/Blog.js" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa5860.6038/App.js" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa5860.7834/Blog.js" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa5152.41979/Blog.js" />
-    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/components/layout/index.js" />
-    <entry file="file://$PROJECT_DIR$/04-http/blogPost/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/RightPane.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/LeftPane.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-http/blogPost/node_modules/material-ui/IconButton/IconButton.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2970">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-http/blogPost/node_modules/material-ui/IconButton/IconButton.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-726">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-http/blogPost/node_modules/material-ui/IconButton/IconButton.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="20" column="25" lean-forward="false" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Posts/Post/Post.js" />
-    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/axios.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/NewMessage/NewMessage.js" />
-    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Messages/Posts.js" />
-    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/FullMessage/FullMessage.css" />
-    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/FullMessage/FullMessage.js" />
-    <entry file="file://$PROJECT_DIR$/02-burger-builder/src/components/Layout/Layout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-396">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa3036.25780/NewPost.js" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa4384.22498/FullPost.js" />
-    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Posts/Posts.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/TodoAPI.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="35" column="10" lean-forward="false" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/TodoList.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa4532.14148/TodoApp.jsx" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa4532.16286/Todo.jsx" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa4532.18166/TodoAPI.jsx" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa7340.7514/AddTodo.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa7340.14292/AddTodo.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="12" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02-burger-builder/src/containers/BurgerBuilder/BurgerBuilder.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="44" column="9" lean-forward="false" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa7340.14292/AddTodo.jsx" />
     <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/NewPost/NewPost.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
@@ -1255,19 +1000,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/components/layout/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1275,7 +1007,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1283,20 +1014,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#138#204#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/components/Post/Post.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="e#52#94#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1304,7 +1021,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1312,15 +1028,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Posts/Posts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1328,43 +1035,331 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Blog.js">
+    <entry file="file://$PROJECT_DIR$/02-burger-builder/firebase.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/App.js">
+    <entry file="file://$PROJECT_DIR$/04-http/blogPost/.firebaserc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-http/blogPost/firebase.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-http/blogPost/database.rules.json" />
+    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/EditMessage/EditMessage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1344">
+          <caret line="65" column="23" lean-forward="false" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/NewMessage/NewMessage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="168">
+          <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="false" />
             <element signature="e#548#1573#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/EditMessage/EditMessage.js">
+    <entry file="file://$PROJECT_DIR$/02-burger-builder/src/components/Navigation/Toolbar/Toolbar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="66" column="39" lean-forward="false" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="39" />
+        <state relative-caret-position="189">
+          <caret line="9" column="60" lean-forward="true" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
           <folding>
-            <element signature="e#202#242#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/components/Navigation/Toolbar/Toolbar.js" />
+    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/components/Navigation/NavigationItems/NavigationItems.js" />
+    <entry file="file://$PROJECT_DIR$/02-burger-builder/src/components/Layout/Layout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/components/layout/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-online-web-store/src/components/Cart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-online-web-store/src/components/Navigation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-redux/counter/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-burger-builder/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/components/Post/Post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Posts/Posts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="53" column="10" lean-forward="false" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/containers/Blog/Blog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="25" column="58" lean-forward="true" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-online-web-store/src/components/Router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-online-web-store/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-online-web-store/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-online-web-store/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-http/blogPost/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-348">
+          <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-burger-builder/src/store/reducers/order.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-819">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#54#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-burger-builder/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-redux/counter/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="54" lean-forward="true" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-burger-builder/src/containers/BurgerBuilder/BurgerBuilder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-burger-builder/src/store/actions/burgerBuilder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="15" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-online-web-store/src/store/reducers/result.js" />
+    <entry file="file://$PROJECT_DIR$/05-online-web-store/src/store/actions/result.js" />
+    <entry file="file://$PROJECT_DIR$/05-online-web-store/src/store/actions/actions.js" />
+    <entry file="file://$PROJECT_DIR$/05-online-web-store/src/store/actions/actionTypes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-burger-builder/src/store/actions/order.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#45#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-online-web-store/src/store/actions/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-online-web-store/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75">
+          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#210#247#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-redux/counter/src/containers/Counter/Counter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-684">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-online-web-store/src/store/actions/cart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-online-web-store/src/data/products.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-online-web-store/src/components/Product.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="21" column="59" lean-forward="true" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-online-web-store/src/containers/ProdustList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <marker date="1530196844341" expanded="true" signature="210:761" ph="{...}" />
+            <marker date="1530196844341" expanded="true" signature="225:759" ph="{...}" />
+            <marker date="1530196844341" expanded="true" signature="285:635" ph="{...}" />
+            <marker date="1530196844341" expanded="true" signature="610:611" ph="&lt;Product/&gt;" />
+            <marker date="1530196844341" expanded="true" signature="667:743" ph="&lt;div/&gt;" />
+            <marker date="1530196844341" expanded="true" signature="809:841" ph="{&quot;cart&quot;: state.cart...}" />
+            <marker date="1530196844341" expanded="true" signature="885:1061" ph="{...}" />
+            <marker date="1530196844341" expanded="true" signature="898:1059" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-online-web-store/src/store/reducers/cart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <marker date="1530196844343" expanded="true" signature="171:1341" ph="{...}" />
+            <marker date="1530196844343" expanded="true" signature="1209:1290" ph="{&quot;products&quot;: products...}" />
+            <marker date="1530196844343" expanded="true" signature="1209:1339" ph="{...}" />
+            <marker date="1530196844343" expanded="true" signature="1307:1333" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-online-web-store/src/components/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>

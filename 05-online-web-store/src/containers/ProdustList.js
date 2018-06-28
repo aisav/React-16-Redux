@@ -8,13 +8,11 @@ class ProdustList extends Component {
     render() {
         var products = this.props.products.map(product => {
             return (
-                //    <Link to={'/posts'+post.id}>
                     <Product key={product.id}
                              product={product}
                              added={() => this.props.onAddToCart(product)}
                              removed={() => this.props.onRemoveFromCart(product)}
                              cart={this.props.cart}/>
-                //    </Link>
             )
         });
         return (
