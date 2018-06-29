@@ -29,20 +29,3 @@ export const getProductsList = () => {
         payload: data.products
     }
 }
-
-
-
-
-
-
-
-// export const storeResult = (result) => {
-//     return dispatch => {
-//         setTimeout(() => {
-//             dispatch(saveResult(result))
-//         }, 2000);
-//     }
-//
-// }
-
-

@@ -9,15 +9,18 @@ class ProdustList extends Component {
         this.props.onLoadData()
     }
     render() {
-        let products = this.props.cart.products.map(product => {
-            return (
+        let products = <h3>Loading...</h3>
+        if (!this.props.cart.loading) {
+            products = this.props.cart.products.map(product => {
+                return (
                     <Product key={product.id}
                              product={product}
                              added={() => this.props.onAddToCart(product)}
                              removed={() => this.props.onRemoveFromCart(product)}
                              cart={this.props.cart}/>
-            )
-        });
+                )
+            });
+        }
         return (
             <div className="product-list">
                 {products}

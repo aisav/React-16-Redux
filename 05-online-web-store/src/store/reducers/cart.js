@@ -2,7 +2,8 @@ import * as actionTypes from '../actions/actionTypes'
 
 const initialState = {
     products: [],
-    quantityById: {}
+    quantityById: {},
+    loading: true
 };
 
 
@@ -42,7 +43,8 @@ const reducer = (state = initialState, action) => {
         case actionTypes.GET_ALL:
             return {
                 ...state,
-                products: action.payload
+                products: action.payload,
+                loading: false
             }
         default:
             return state;

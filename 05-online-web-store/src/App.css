@@ -1,11 +1,33 @@
 .product-list {
   display: flex;
-  flex: 1;
-  flex-wrap: wrap;
-  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
 }
 
 .product-list .product {
-  padding: 10px 30px;
   width: 200px;
+  padding: 16px;
+  text-align: center;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+  margin: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.Toolbar {
+  height: 56px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  z-index: 90;
 }
