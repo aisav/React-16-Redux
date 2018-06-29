@@ -19,12 +19,6 @@
       "price": 3.99
     },
     {
-      "id": 4,
-      "name": "Tangerine",
-      "image": "4-tangerine.jpg",
-      "price": 3.99
-    },
-    {
       "id": 5,
       "name": "Orange",
       "image": "5-orange.jpg",
@@ -36,12 +30,7 @@
       "image": "6-kiwi.jpg",
       "price": 3.99
     },
-    {
-      "id": 7,
-      "name": "Peach",
-      "image": "7-peach.jpg",
-      "price": 3.99
-    },
+
     {
       "id": 8,
       "name": "Bananas",

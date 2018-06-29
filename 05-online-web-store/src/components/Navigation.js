@@ -6,10 +6,7 @@ const Navigation = () => {
     return (
         <nav>
             <ul>
-                <li><NavLink to="/">Home</NavLink></li>
-            </ul>
-            <ul>
-                <li><NavLink to="/cart">Cart</NavLink></li>
+                <li className="Toolbar"><NavLink to="/">Home</NavLink></li>
             </ul>
         </nav>
     )
