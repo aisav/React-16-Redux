@@ -1,1 +1,3 @@
-console.log("Hello config")
+export default {
+    port:  8080,
+};
