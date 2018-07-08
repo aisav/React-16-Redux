@@ -11,7 +11,7 @@
 // })
 
 import express from 'express'
-import fs from 'fs'
+import apiRouter from './api'
 
 import config from './config/config'
 
@@ -22,6 +22,7 @@ server.get('/', (req, res) => {
     res.send('Hello express')
 })
 
+server.use('/api', apiRouter)
 server.use(express.static('public'))
 
 server.listen(config.port, () =>{
